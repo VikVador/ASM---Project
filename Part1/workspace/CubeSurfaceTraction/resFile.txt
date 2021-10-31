@@ -1,0 +1,284 @@
+_theWDir="/Users/dujardinnicolas/Documents/Inge/Master/B1Q1/ASM/workspace/CubeSurfaceTraction"
+_theWDir =  /Users/dujardinnicolas/Documents/Inge/Master/B1Q1/ASM/workspace/CubeSurfaceTraction
+Domain::build()...
+Isotropic MaterialLaw Data Checked : LinearIsotropicHardening!
+FieldApplicator number 1 : 
+	1 elements created on cells with 8 nodes, deg1
+FieldApplicator number 1 created 1 elements of type Volume3DElement
+	Total Volume of elements = 125000
+LoadingInteraction number 2 created 1 elements of type Traction3DElement
+resizing VizWin to prescribed size (600, 600)
+actual VizWin size (600, 600)
+starting QuasiStaticTimeIntegration using 1 TBB threads
+initialising QuasiStaticTimeIntegration
+Initialising mechanical IterationManager
+initialising TimeStepManager
+Number of steps to be saved on disk : 21
+   0 : t = 0 - maxTimeStepSize = 0.1
+   1 : t = 1 - maxTimeStepSize = 0.1
+   2 : t = 2 - maxTimeStepSize = 0.1
+   3 : t = 3 - maxTimeStepSize = 0.1
+   4 : t = 4 - maxTimeStepSize = 0.1
+   5 : t = 5 - maxTimeStepSize = 0.1
+   6 : t = 6 - maxTimeStepSize = 0.1
+   7 : t = 7 - maxTimeStepSize = 0.1
+   8 : t = 8 - maxTimeStepSize = 0.1
+   9 : t = 9 - maxTimeStepSize = 0.1
+   10 : t = 10 - maxTimeStepSize = 0.1
+   11 : t = 11 - maxTimeStepSize = 0.1
+   12 : t = 12 - maxTimeStepSize = 0.1
+   13 : t = 13 - maxTimeStepSize = 0.1
+   14 : t = 14 - maxTimeStepSize = 0.1
+   15 : t = 15 - maxTimeStepSize = 0.1
+   16 : t = 16 - maxTimeStepSize = 0.1
+   17 : t = 17 - maxTimeStepSize = 0.1
+   18 : t = 18 - maxTimeStepSize = 0.1
+   19 : t = 19 - maxTimeStepSize = 0.1
+   20 : t = 20 - maxTimeStepSize = 0.1
+
+initialising StageManager
+
+
+=====================
+ENTERING STAGE #0
+=====================
+
+setStage for InteractionSet : 
+  activation status unchanged!
+  activation status unchanged!
+	 InteractionSet : unmodified
+setStage for FixationSet : unmodified
+Mechanical Connexion:
+Connexion       with 3 parts & 24 dofs
+    part #1 : 17 dofs
+    part #2 : 7 dofs
+    part #3 : 0 dofs
+    builder SloanConnexionBuilder
+
+    number Of StrVector =  0
+    number of StrMatrix =  0
+ Number of mechanical dofs = 17
+ Number of clamped mechanical dofs = 7
+Saving BZOutArchive (version=22) ...
+
+ *** STEP 1: t= 0.1 - dt= 0.1 - CPU= 1.07s/3.31s
+
+    Rebuild Connexion...
+mechanical iteration  0 : Rmean =   1.000000e+00 Rmax =   2.012500e+04
+Non Symmetric Skyline matrix profile:
+  System dimension = 17
+  Dense system size = 289
+  Lower/Upper skyline size = 153 / 153
+  Ratio (Skyline/Dense) = 105.882 %
+  Mean / Max high of skylines = 7 / 16
+mechanical iteration  1 : Rmean =   1.916102e+00 Rmax =   4.641923e+05
+mechanical iteration  2 : Rmean =   1.168173e+00 Rmax =   2.057410e+05
+mechanical iteration  3 : Rmean =   1.471631e+00 Rmax =   1.785441e+05
+mechanical iteration  4 : Rmean =   1.534134e+00 Rmax =   2.430937e+07
+mechanical iteration  5 : Rmean =   2.509920e+00 Rmax =   6.581033e+06
+mechanical iteration  6 : Rmean =   1.510858e+00 Rmax =   3.294565e+06
+mechanical iteration  7 : Rmean =   1.901204e+00 Rmax =   4.312831e+05
+
+ *** STEP 1: t= 0.0333333 - dt= 0.0333333 - CPU= 1.10s/3.35s
+
+mechanical iteration  0 : Rmean =   1.000000e+00 Rmax =   6.708333e+03
+mechanical iteration  1 : Rmean =   6.757307e-01 Rmax =   1.745729e+09
+mechanical iteration  2 : Rmean =   1.290259e+00 Rmax =   2.524774e+08
+mechanical iteration  3 : Rmean =   2.290248e+00 Rmax =   1.817892e+07
+** WARNING: Non-symmetric skyline - Ignoring zero pivot
+**    [file=/Users/rboman/dev/Offi_Student_2020/oo_meta/mtMath/SkyLineSolver.cpp line 399]
+mechanical iteration  4 : Rmean =   1.000437e+00 Rmax =   1.103871e+08
+mechanical iteration  5 : Rmean =   2.948340e-01 Rmax =   2.458560e+07
+Negative Jacobian
+
+ *** STEP 1: t= 0.0111111 - dt= 0.0111111 - CPU= 1.13s/3.37s
+
+mechanical iteration  0 : Rmean =   1.000000e+00 Rmax =   2.236111e+03
+mechanical iteration  1 : Rmean =   3.846714e-01 Rmax =   1.456382e+19
+Negative Jacobian
+
+ *** STEP 1: t= 0.0037037 - dt= 0.0037037 - CPU= 1.14s/3.39s
+
+mechanical iteration  0 : Rmean =   1.000000e+00 Rmax =   7.453704e+02
+mechanical iteration  1 : Rmean =   5.334098e-01 Rmax =   5.333375e+09
+mechanical iteration  2 : Rmean =   8.539111e-01 Rmax =   5.892231e+08
+mechanical iteration  3 : Rmean =   1.830608e+00 Rmax =   4.784154e+07
+Negative Jacobian
+
+ *** STEP 1: t= 0.00123457 - dt= 0.00123457 - CPU= 1.16s/3.41s
+
+mechanical iteration  0 : Rmean =   1.000000e+00 Rmax =   2.484568e+02
+mechanical iteration  1 : Rmean =   6.243038e-01 Rmax =   2.471729e+09
+mechanical iteration  2 : Rmean =   1.190058e+00 Rmax =   3.478697e+08
+mechanical iteration  3 : Rmean =   2.187599e+00 Rmax =   3.118269e+07
+Negative Jacobian
+
+ *** STEP 1: t= 0.000411523 - dt= 0.000411523 - CPU= 1.18s/3.43s
+
+mechanical iteration  0 : Rmean =   1.000000e+00 Rmax =   8.281893e+01
+mechanical iteration  1 : Rmean =   1.289062e+00 Rmax =   1.025967e+08
+** WARNING: Non-symmetric skyline - Ignoring zero pivot
+**    [file=/Users/rboman/dev/Offi_Student_2020/oo_meta/mtMath/SkyLineSolver.cpp line 399]
+mechanical iteration  2 : Rmean =   1.661143e+00 Rmax =   1.107291e+07
+mechanical iteration  3 : Rmean =   2.126303e+00 Rmax =   5.940847e+06
+mechanical iteration  4 : Rmean =   1.206453e+00 Rmax =   1.092143e+06
+** WARNING: Non-symmetric skyline - Ignoring zero pivot
+**    [file=/Users/rboman/dev/Offi_Student_2020/oo_meta/mtMath/SkyLineSolver.cpp line 399]
+mechanical iteration  5 : Rmean =   9.849832e-01 Rmax =   2.146791e+05
+mechanical iteration  6 : Rmean =   1.306640e+00 Rmax =   1.439781e+05
+mechanical iteration  7 : Rmean =   1.254646e+00 Rmax =   1.685283e+05
+
+ *** STEP 1: t= 0.000137174 - dt= 0.000137174 - CPU= 1.21s/3.46s
+
+mechanical iteration  0 : Rmean =   1.000000e+00 Rmax =   2.760631e+01
+mechanical iteration  1 : Rmean =   1.515108e+00 Rmax =   2.769616e+07
+mechanical iteration  2 : Rmean =   2.114177e+00 Rmax =   3.372297e+06
+mechanical iteration  3 : Rmean =   1.745760e+00 Rmax =   2.536206e+06
+mechanical iteration  4 : Rmean =   1.952730e+00 Rmax =   1.461648e+05
+** WARNING: Non-symmetric skyline - Ignoring zero pivot
+**    [file=/Users/rboman/dev/Offi_Student_2020/oo_meta/mtMath/SkyLineSolver.cpp line 399]
+mechanical iteration  5 : Rmean =   1.679239e+00 Rmax =   1.559897e+05
+mechanical iteration  6 : Rmean =   1.771646e+00 Rmax =   1.682368e+05
+Divergence of iterations 
+
+ *** STEP 1: t= 4.57247e-05 - dt= 4.57247e-05 - CPU= 1.24s/3.48s
+
+mechanical iteration  0 : Rmean =   1.000000e+00 Rmax =   9.202103e+00
+Negative Jacobian
+
+ *** STEP 1: t= 1.52416e-05 - dt= 1.52416e-05 - CPU= 1.25s/3.49s
+
+mechanical iteration  0 : Rmean =   1.000000e+00 Rmax =   3.067368e+00
+mechanical iteration  1 : Rmean =   4.341129e-01 Rmax =   2.307441e+10
+Negative Jacobian
+
+ *** STEP 1: t= 5.08053e-06 - dt= 5.08053e-06 - CPU= 1.26s/3.51s
+
+mechanical iteration  0 : Rmean =   1.000000e+00 Rmax =   1.022456e+00
+** WARNING: Non-symmetric skyline - Ignoring zero pivot
+**    [file=/Users/rboman/dev/Offi_Student_2020/oo_meta/mtMath/SkyLineSolver.cpp line 399]
+mechanical iteration  1 : Rmean =   5.583030e-01 Rmax =   4.203083e+09
+mechanical iteration  2 : Rmean =   9.758970e-01 Rmax =   5.261711e+08
+mechanical iteration  3 : Rmean =   2.091984e+00 Rmax =   5.782664e+07
+** WARNING: Non-symmetric skyline - Ignoring zero pivot
+**    [file=/Users/rboman/dev/Offi_Student_2020/oo_meta/mtMath/SkyLineSolver.cpp line 399]
+Negative Jacobian
+
+ *** STEP 1: t= 1.69351e-06 - dt= 1.69351e-06 - CPU= 1.29s/3.53s
+
+mechanical iteration  0 : Rmean =   6.816373e-01 Rmax =   3.408187e-01
+** WARNING: Non-symmetric skyline - Ignoring zero pivot
+**    [file=/Users/rboman/dev/Offi_Student_2020/oo_meta/mtMath/SkyLineSolver.cpp line 399]
+mechanical iteration  1 : Rmean =   2.547751e+00 Rmax =   1.237785e+04
+mechanical iteration  2 : Rmean =   1.207370e+00 Rmax =   8.641506e-01
+mechanical iteration  3 : Rmean =   1.942910e+00 Rmax =   7.499522e+05
+mechanical iteration  4 : Rmean =   2.224460e+00 Rmax =   1.347616e+05
+mechanical iteration  5 : Rmean =   1.619047e+00 Rmax =   1.879030e+05
+mechanical iteration  6 : Rmean =   1.508662e+00 Rmax =   1.678919e+05
+mechanical iteration  7 : Rmean =   1.547175e+00 Rmax =   1.580664e+05
+
+ *** STEP 1: t= 5.64503e-07 - dt= 5.64503e-07 - CPU= 1.32s/3.56s
+
+mechanical iteration  0 : Rmean =   2.272124e-01 Rmax =   1.136062e-01
+** WARNING: Non-symmetric skyline - Ignoring zero pivot
+**    [file=/Users/rboman/dev/Offi_Student_2020/oo_meta/mtMath/SkyLineSolver.cpp line 399]
+mechanical iteration  1 : Rmean =   1.551061e+00 Rmax =   1.960629e+07
+mechanical iteration  2 : Rmean =   1.870479e+00 Rmax =   2.498685e+07
+mechanical iteration  3 : Rmean =   1.880967e+00 Rmax =   7.114489e+06
+mechanical iteration  4 : Rmean =   1.819976e+00 Rmax =   3.019944e+06
+mechanical iteration  5 : Rmean =   2.515781e+00 Rmax =   1.818398e+05
+mechanical iteration  6 : Rmean =   1.456623e+00 Rmax =   1.929800e+05
+mechanical iteration  7 : Rmean =   1.415513e+00 Rmax =   1.857305e+05
+
+ *** STEP 1: t= 1.88168e-07 - dt= 1.88168e-07 - CPU= 1.36s/3.60s
+
+mechanical iteration  0 : Rmean =   7.573747e-02 Rmax =   3.786875e-02
+mechanical iteration  1 : Rmean =   1.169621e+00 Rmax =   1.619836e+08
+mechanical iteration  2 : Rmean =   1.637956e+00 Rmax =   2.029167e+07
+mechanical iteration  3 : Rmean =   7.321882e+00 Rmax =   7.260239e+08
+mechanical iteration  4 : Rmean =   3.959035e+00 Rmax =   8.085539e+09
+mechanical iteration  5 : Rmean =   7.513881e+00 Rmax =   1.571130e+09
+mechanical iteration  6 : Rmean =   8.846828e-01 Rmax =   1.122746e+08
+Negative Jacobian
+
+ *** STEP 1: t= 6.27225e-08 - dt= 6.27225e-08 - CPU= 1.39s/3.63s
+
+mechanical iteration  0 : Rmean =   2.524582e-02 Rmax =   1.262293e-02
+** WARNING: Non-symmetric skyline - Ignoring zero pivot
+**    [file=/Users/rboman/dev/Offi_Student_2020/oo_meta/mtMath/SkyLineSolver.cpp line 399]
+mechanical iteration  1 : Rmean =   1.064981e+00 Rmax =   2.491057e+08
+mechanical iteration  2 : Rmean =   1.606515e+00 Rmax =   3.176995e+07
+Negative Jacobian
+
+ *** STEP 1: t= 2.09075e-08 - dt= 2.09075e-08 - CPU= 1.41s/3.65s
+
+mechanical iteration  0 : Rmean =   8.415271e-03 Rmax =   4.207653e-03
+mechanical iteration  1 : Rmean =   1.625371e+00 Rmax =   7.373768e+06
+mechanical iteration  2 : Rmean =   1.564001e+00 Rmax =   3.825767e+05
+** WARNING: Non-symmetric skyline - Ignoring zero pivot
+**    [file=/Users/rboman/dev/Offi_Student_2020/oo_meta/mtMath/SkyLineSolver.cpp line 399]
+mechanical iteration  3 : Rmean =   2.530451e+00 Rmax =   2.443084e+05
+mechanical iteration  4 : Rmean =   3.068967e+00 Rmax =   2.140282e+05
+mechanical iteration  5 : Rmean =   2.627141e+00 Rmax =   2.414466e+05
+mechanical iteration  6 : Rmean =   3.047425e+00 Rmax =   2.129364e+05
+Divergence of iterations 
+
+ *** STEP 1: t= 6.96917e-09 - dt= 6.96917e-09 - CPU= 1.44s/3.68s
+
+mechanical iteration  0 : Rmean =   2.805088e-03 Rmax =   1.402561e-03
+** WARNING: Non-symmetric skyline - Ignoring zero pivot
+**    [file=/Users/rboman/dev/Offi_Student_2020/oo_meta/mtMath/SkyLineSolver.cpp line 399]
+mechanical iteration  1 : Rmean =   1.645324e+00 Rmax =   5.452660e+06
+mechanical iteration  2 : Rmean =   1.642898e+00 Rmax =   2.819988e+05
+mechanical iteration  3 : Rmean =   2.504830e+00 Rmax =   2.242076e+05
+** WARNING: Non-symmetric skyline - Ignoring zero pivot
+**    [file=/Users/rboman/dev/Offi_Student_2020/oo_meta/mtMath/SkyLineSolver.cpp line 399]
+** WARNING: Non-symmetric skyline - Ignoring zero pivot
+**    [file=/Users/rboman/dev/Offi_Student_2020/oo_meta/mtMath/SkyLineSolver.cpp line 399]
+mechanical iteration  4 : Rmean =   2.956136e+00 Rmax =   2.033578e+05
+mechanical iteration  5 : Rmean =   2.694497e+00 Rmax =   2.240323e+05
+** WARNING: Non-symmetric skyline - Ignoring zero pivot
+**    [file=/Users/rboman/dev/Offi_Student_2020/oo_meta/mtMath/SkyLineSolver.cpp line 399]
+mechanical iteration  6 : Rmean =   3.503972e+00 Rmax =   2.020383e+05
+Divergence of iterations 
+
+ *** STEP 1: t= 2.32306e-09 - dt= 2.32306e-09 - CPU= 1.47s/3.70s
+
+mechanical iteration  0 : Rmean =   9.350265e-04 Rmax =   4.675307e-04
+mechanical iteration  1 : Rmean =   6.180265e-01 Rmax =   2.587535e+09
+mechanical iteration  2 : Rmean =   1.174912e+00 Rmax =   3.620950e+08
+mechanical iteration  3 : Rmean =   2.174061e+00 Rmax =   3.337766e+07
+** WARNING: Non-symmetric skyline - Ignoring zero pivot
+**    [file=/Users/rboman/dev/Offi_Student_2020/oo_meta/mtMath/SkyLineSolver.cpp line 399]
+Negative Jacobian
+
+ *** STEP 1: t= 7.74352e-10 - dt= 7.74352e-10 - CPU= 1.49s/3.72s
+
+mechanical iteration  0 : Rmean =   3.116728e-04 Rmax =   1.558539e-04
+mechanical iteration  1 : Rmean =   4.366248e-01 Rmax =   2.176171e+10
+Negative Jacobian
+
+ *** STEP 1: t= 2.58117e-10 - dt= 2.58117e-10 - CPU= 1.50s/3.74s
+
+mechanical iteration  0 : Rmean =   1.038882e-04 Rmax =   5.196157e-05
+mechanical iteration  1 : Rmean =   1.573038e+00 Rmax =   1.526878e+07
+mechanical iteration  2 : Rmean =   2.487985e+00 Rmax =   1.177499e+06
+** WARNING: Non-symmetric skyline - Ignoring zero pivot
+**    [file=/Users/rboman/dev/Offi_Student_2020/oo_meta/mtMath/SkyLineSolver.cpp line 399]
+mechanical iteration  3 : Rmean =   1.683259e+00 Rmax =   6.109978e+05
+mechanical iteration  4 : Rmean =   2.249483e+00 Rmax =   2.147861e+05
+** WARNING: Non-symmetric skyline - Ignoring zero pivot
+**    [file=/Users/rboman/dev/Offi_Student_2020/oo_meta/mtMath/SkyLineSolver.cpp line 399]
+mechanical iteration  5 : Rmean =   2.031194e+00 Rmax =   2.502257e+05
+mechanical iteration  6 : Rmean =   1.922897e+00 Rmax =   2.119487e+05
+mechanical iteration  7 : Rmean =   1.865162e+00 Rmax =   2.369016e+05
+
+ TimeStepManager : 
+Current Time Step = 8.60392e-11 is less than the Minimum Time Step = 1e-10 ! 
+ 
+Saving BZOutArchive (version=22) ...
+
+Problem at time 0   (0% done).
+
+User CPU : 1.55s
+Real CPU : 3.78s
