@@ -1,0 +1,1017 @@
+_theWDir="/Users/romaingaspar/Desktop/ASM---Project/ASM-Part_1/Partie 1-3/Planestrain/material2/workspace/CubeSurfaceTraction"
+_theWDir =  /Users/romaingaspar/Desktop/ASM---Project/ASM-Part_1/Partie 1-3/Planestrain/material2/workspace/CubeSurfaceTraction
+Domain::build()...
+Isotropic MaterialLaw Data Checked : LinearIsotropicHardening!
+Isotropic MaterialLaw Data Checked : LinearIsotropicHardening!
+Isotropic MaterialLaw Data Checked : LinearIsotropicHardening!
+Kinematic MaterialLaw Data Checked : DruckerPragerKinematicHardening!
+Isotropic MaterialLaw Data Checked : LinearIsotropicHardening!
+Kinematic MaterialLaw Data Checked : DruckerPragerKinematicHardening!
+FieldApplicator number 1 : 
+	1 elements created on cells with 8 nodes, deg1
+FieldApplicator number 1 created 1 elements of type Volume3DElement
+	Total Volume of elements = 125000
+LoadingInteraction number 2 created 1 elements of type Traction3DElement
+resizing VizWin to prescribed size (600, 600)
+actual VizWin size (600, 600)
+starting QuasiStaticTimeIntegration using 1 TBB threads
+initialising QuasiStaticTimeIntegration
+Initialising mechanical IterationManager
+initialising TimeStepManager
+Number of steps to be saved on disk : 21
+   0 : t = 0 - maxTimeStepSize = 0.1
+   1 : t = 1 - maxTimeStepSize = 0.1
+   2 : t = 2 - maxTimeStepSize = 0.1
+   3 : t = 3 - maxTimeStepSize = 0.1
+   4 : t = 4 - maxTimeStepSize = 0.1
+   5 : t = 5 - maxTimeStepSize = 0.1
+   6 : t = 6 - maxTimeStepSize = 0.1
+   7 : t = 7 - maxTimeStepSize = 0.1
+   8 : t = 8 - maxTimeStepSize = 0.1
+   9 : t = 9 - maxTimeStepSize = 0.1
+   10 : t = 10 - maxTimeStepSize = 0.1
+   11 : t = 11 - maxTimeStepSize = 0.1
+   12 : t = 12 - maxTimeStepSize = 0.1
+   13 : t = 13 - maxTimeStepSize = 0.1
+   14 : t = 14 - maxTimeStepSize = 0.1
+   15 : t = 15 - maxTimeStepSize = 0.1
+   16 : t = 16 - maxTimeStepSize = 0.1
+   17 : t = 17 - maxTimeStepSize = 0.1
+   18 : t = 18 - maxTimeStepSize = 0.1
+   19 : t = 19 - maxTimeStepSize = 0.1
+   20 : t = 20 - maxTimeStepSize = 0.1
+
+initialising StageManager
+
+
+=====================
+ENTERING STAGE #0
+=====================
+
+setStage for InteractionSet : 
+  activation status unchanged!
+  activation status unchanged!
+	 InteractionSet : unmodified
+setStage for FixationSet : unmodified
+Mechanical Connexion:
+Connexion       with 3 parts & 24 dofs
+    part #1 : 8 dofs
+    part #2 : 16 dofs
+    part #3 : 0 dofs
+    builder SloanConnexionBuilder
+
+    number Of StrVector =  0
+    number of StrMatrix =  0
+ Number of mechanical dofs = 8
+ Number of clamped mechanical dofs = 16
+Saving BZOutArchive (version=22) ...
+
+ *** STEP 1: t= 0.1 - dt= 0.1 - CPU= 1.11s/2.42s
+
+    Rebuild Connexion...
+mechanical iteration  0 : Rmean =   1.000000e+00 Rmax =   2.000000e+04
+Non Symmetric Skyline matrix profile:
+  System dimension = 8
+  Dense system size = 64
+  Lower/Upper skyline size = 36 / 36
+  Ratio (Skyline/Dense) = 112.5 %
+  Mean / Max high of skylines = 3 / 7
+mechanical iteration  1 : Rmean =   7.843385e-05 Rmax =   3.093984e+00
+
+ *** STEP 2: t= 0.2 - dt= 0.1 - CPU= 1.15s/2.47s
+
+mechanical iteration  0 : Rmean =   1.296269e-04 Rmax =   9.939869e+00
+mechanical iteration  1 : Rmean =   3.999486e-12 Rmax =   3.276291e-07
+
+ *** STEP 3: t= 0.3 - dt= 0.1 - CPU= 1.19s/2.52s
+
+mechanical iteration  0 : Rmean =   1.002074e-05 Rmax =   1.066267e+00
+
+ *** STEP 4: t= 0.4 - dt= 0.1 - CPU= 1.23s/2.57s
+
+mechanical iteration  0 : Rmean =   3.971912e-05 Rmax =   5.073275e+00
+
+ *** STEP 5: t= 0.5 - dt= 0.1 - CPU= 1.27s/2.62s
+
+mechanical iteration  0 : Rmean =   7.839210e-05 Rmax =   1.323725e+01
+
+ *** STEP 6: t= 0.6 - dt= 0.1 - CPU= 1.31s/2.67s
+
+mechanical iteration  0 : Rmean =   1.214427e-04 Rmax =   2.515060e+01
+mechanical iteration  1 : Rmean =   5.765931e-12 Rmax =   1.416534e-06
+
+ *** STEP 7: t= 0.7 - dt= 0.1 - CPU= 1.35s/2.72s
+
+mechanical iteration  0 : Rmean =   4.132661e-05 Rmax =   9.480645e+00
+
+ *** STEP 8: t= 0.8 - dt= 0.1 - CPU= 1.39s/2.77s
+
+mechanical iteration  0 : Rmean =   3.756674e-02 Rmax =   9.719920e+03
+mechanical iteration  1 : Rmean =   9.382656e-03 Rmax =   3.071328e+03
+mechanical iteration  2 : Rmean =   1.006490e-04 Rmax =   3.193091e+01
+mechanical iteration  3 : Rmean =   8.095632e-09 Rmax =   2.560068e-03
+
+ *** STEP 9: t= 0.9 - dt= 0.1 - CPU= 1.45s/2.83s
+
+mechanical iteration  0 : Rmean =   6.474479e-03 Rmax =   2.488451e+03
+mechanical iteration  1 : Rmean =   5.126594e-05 Rmax =   1.735120e+01
+
+ *** STEP 10: t= 1 - dt= 0.1 - CPU= 1.49s/2.88s
+
+mechanical iteration  0 : Rmean =   2.847570e-03 Rmax =   1.101843e+03
+mechanical iteration  1 : Rmean =   3.376224e-06 Rmax =   1.250118e+00
+Saving BZOutArchive (version=22) ...
+
+ *** STEP 11: t= 1.1 - dt= 0.1 - CPU= 1.54s/2.95s
+
+mechanical iteration  0 : Rmean =   9.083010e-02 Rmax =   4.010992e+04
+mechanical iteration  1 : Rmean =   3.188656e-01 Rmax =   8.089756e+04
+mechanical iteration  2 : Rmean =   5.127979e-04 Rmax =   1.441024e+02
+mechanical iteration  3 : Rmean =   1.486152e-10 Rmax =   4.375274e-05
+
+ *** STEP 12: t= 1.2 - dt= 0.1 - CPU= 1.59s/3.02s
+
+mechanical iteration  0 : Rmean =   1.598552e-05 Rmax =   4.521526e+00
+
+ *** STEP 13: t= 1.3 - dt= 0.1 - CPU= 1.63s/3.07s
+
+mechanical iteration  0 : Rmean =   4.991492e-05 Rmax =   1.278946e+01
+
+ *** STEP 14: t= 1.4 - dt= 0.1 - CPU= 1.67s/3.12s
+
+mechanical iteration  0 : Rmean =   1.099621e-04 Rmax =   2.480540e+01
+mechanical iteration  1 : Rmean =   5.179901e-12 Rmax =   1.351658e-06
+
+ *** STEP 15: t= 1.5 - dt= 0.1 - CPU= 1.73s/3.19s
+
+mechanical iteration  0 : Rmean =   4.902467e-05 Rmax =   9.048636e+00
+
+ *** STEP 16: t= 1.6 - dt= 0.1 - CPU= 1.76s/3.23s
+
+mechanical iteration  0 : Rmean =   9.645585e-05 Rmax =   1.435482e+01
+
+ *** STEP 17: t= 1.7 - dt= 0.1 - CPU= 1.80s/3.29s
+
+mechanical iteration  0 : Rmean =   1.407385e-04 Rmax =   1.591690e+01
+mechanical iteration  1 : Rmean =   4.425762e-12 Rmax =   6.168689e-07
+
+ *** STEP 18: t= 1.8 - dt= 0.1 - CPU= 1.84s/3.33s
+
+mechanical iteration  0 : Rmean =   2.032989e-04 Rmax =   1.810551e+01
+mechanical iteration  1 : Rmean =   7.120864e-12 Rmax =   7.993892e-07
+
+ *** STEP 19: t= 1.9 - dt= 0.1 - CPU= 1.88s/3.38s
+
+mechanical iteration  0 : Rmean =   5.798447e-05 Rmax =   3.746206e+00
+
+ *** STEP 20: t= 2 - dt= 0.1 - CPU= 1.92s/3.44s
+
+mechanical iteration  0 : Rmean =   3.070916e-04 Rmax =   1.124026e+01
+mechanical iteration  1 : Rmean =   7.435638e-12 Rmax =   2.495831e-07
+Saving BZOutArchive (version=22) ...
+
+ *** STEP 21: t= 2.1 - dt= 0.1 - CPU= 1.97s/3.50s
+
+mechanical iteration  0 : Rmean =   1.717003e-08 Rmax =   9.535155e-04
+
+ *** STEP 22: t= 2.2 - dt= 0.1 - CPU= 2.00s/3.55s
+
+mechanical iteration  0 : Rmean =   4.948606e-05 Rmax =   3.744983e+00
+
+ *** STEP 23: t= 2.3 - dt= 0.1 - CPU= 2.05s/3.61s
+
+mechanical iteration  0 : Rmean =   1.059894e-04 Rmax =   1.123945e+01
+mechanical iteration  1 : Rmean =   2.393518e-12 Rmax =   2.352060e-07
+
+ *** STEP 24: t= 2.4 - dt= 0.1 - CPU= 2.11s/3.67s
+
+mechanical iteration  0 : Rmean =   6.342617e-09 Rmax =   9.550519e-04
+
+ *** STEP 25: t= 2.5 - dt= 0.1 - CPU= 2.15s/3.72s
+
+mechanical iteration  0 : Rmean =   2.161360e-05 Rmax =   3.749485e+00
+
+ *** STEP 26: t= 2.6 - dt= 0.1 - CPU= 2.18s/3.77s
+
+mechanical iteration  0 : Rmean =   5.394920e-05 Rmax =   1.124723e+01
+
+ *** STEP 27: t= 2.7 - dt= 0.1 - CPU= 2.22s/3.82s
+
+mechanical iteration  0 : Rmean =   9.224999e-05 Rmax =   2.249582e+01
+
+ *** STEP 28: t= 2.8 - dt= 0.1 - CPU= 2.26s/3.87s
+
+mechanical iteration  0 : Rmean =   1.341699e-04 Rmax =   3.749691e+01
+mechanical iteration  1 : Rmean =   1.071483e-11 Rmax =   2.704832e-06
+
+ *** STEP 29: t= 2.9 - dt= 0.1 - CPU= 2.30s/3.92s
+
+mechanical iteration  0 : Rmean =   5.950735e-05 Rmax =   1.875580e+01
+
+ *** STEP 30: t= 3 - dt= 0.1 - CPU= 2.34s/3.97s
+
+mechanical iteration  0 : Rmean =   2.298344e-02 Rmax =   7.764386e+03
+mechanical iteration  1 : Rmean =   4.083830e-03 Rmax =   1.672404e+03
+mechanical iteration  2 : Rmean =   7.484222e-05 Rmax =   3.061419e+01
+Saving BZOutArchive (version=22) ...
+
+ *** STEP 31: t= 3.1 - dt= 0.1 - CPU= 2.40s/4.03s
+
+mechanical iteration  0 : Rmean =   9.063587e-02 Rmax =   3.749684e+04
+mechanical iteration  1 : Rmean =   2.951067e-01 Rmax =   7.089866e+04
+mechanical iteration  2 : Rmean =   3.741263e-04 Rmax =   1.010746e+02
+mechanical iteration  3 : Rmean =   7.421057e-11 Rmax =   2.272464e-05
+
+ *** STEP 32: t= 3.2 - dt= 0.1 - CPU= 2.46s/4.11s
+
+mechanical iteration  0 : Rmean =   8.740115e-05 Rmax =   2.849684e+01
+
+ *** STEP 33: t= 3.3 - dt= 0.1 - CPU= 2.51s/4.17s
+
+mechanical iteration  0 : Rmean =   1.941494e-04 Rmax =   5.487568e+01
+mechanical iteration  1 : Rmean =   1.101551e-10 Rmax =   2.841161e-05
+
+ *** STEP 34: t= 3.4 - dt= 0.1 - CPU= 2.55s/4.22s
+
+mechanical iteration  0 : Rmean =   1.260199e-04 Rmax =   3.064426e+01
+mechanical iteration  1 : Rmean =   2.766416e-11 Rmax =   6.516551e-06
+
+ *** STEP 35: t= 3.5 - dt= 0.1 - CPU= 2.59s/4.27s
+
+mechanical iteration  0 : Rmean =   2.131972e-05 Rmax =   3.747816e+00
+
+ *** STEP 36: t= 3.6 - dt= 0.1 - CPU= 2.63s/4.32s
+
+mechanical iteration  0 : Rmean =   8.033090e-05 Rmax =   1.124182e+01
+
+ *** STEP 37: t= 3.7 - dt= 0.1 - CPU= 2.66s/4.37s
+
+mechanical iteration  0 : Rmean =   2.153831e-04 Rmax =   2.248037e+01
+mechanical iteration  1 : Rmean =   1.042008e-11 Rmax =   9.694522e-07
+
+ *** STEP 38: t= 3.8 - dt= 0.1 - CPU= 2.71s/4.42s
+
+mechanical iteration  0 : Rmean =   1.078362e-04 Rmax =   7.490447e+00
+mechanical iteration  1 : Rmean =   1.797129e-12 Rmax =   1.289266e-07
+
+ *** STEP 39: t= 3.9 - dt= 0.1 - CPU= 2.75s/4.47s
+
+mechanical iteration  0 : Rmean =   1.007281e-04 Rmax =   3.746913e+00
+mechanical iteration  1 : Rmean =   1.509778e-12 Rmax =   7.737617e-08
+
+ *** STEP 40: t= 4 - dt= 0.1 - CPU= 2.79s/4.52s
+
+mechanical iteration  0 : Rmean =   2.201511e-04 Rmax =   3.746685e+00
+mechanical iteration  1 : Rmean =   2.335199e-12 Rmax =   4.932113e-08
+Saving BZOutArchive (version=22) ...
+
+ *** STEP 41: t= 4.1 - dt= 0.1 - CPU= 2.85s/4.59s
+
+mechanical iteration  0 : Rmean =   7.925493e-05 Rmax =   3.746457e+00
+
+ *** STEP 42: t= 4.2 - dt= 0.1 - CPU= 2.92s/4.67s
+
+mechanical iteration  0 : Rmean =   1.375421e-04 Rmax =   1.123773e+01
+mechanical iteration  1 : Rmean =   3.342382e-12 Rmax =   2.415914e-07
+
+ *** STEP 43: t= 4.3 - dt= 0.1 - CPU= 2.98s/4.76s
+
+mechanical iteration  0 : Rmean =   7.524664e-09 Rmax =   9.536150e-04
+
+ *** STEP 44: t= 4.4 - dt= 0.1 - CPU= 3.02s/4.82s
+
+mechanical iteration  0 : Rmean =   2.451707e-05 Rmax =   3.747680e+00
+
+ *** STEP 45: t= 4.5 - dt= 0.1 - CPU= 3.06s/4.87s
+
+mechanical iteration  0 : Rmean =   5.954635e-05 Rmax =   1.123854e+01
+
+ *** STEP 46: t= 4.6 - dt= 0.1 - CPU= 3.10s/4.92s
+
+mechanical iteration  0 : Rmean =   1.000143e-04 Rmax =   2.247190e+01
+mechanical iteration  1 : Rmean =   4.775022e-12 Rmax =   9.527735e-07
+
+ *** STEP 47: t= 4.7 - dt= 0.1 - CPU= 3.14s/4.99s
+
+mechanical iteration  0 : Rmean =   2.872472e-05 Rmax =   7.489223e+00
+
+ *** STEP 48: t= 4.8 - dt= 0.1 - CPU= 3.19s/5.04s
+
+mechanical iteration  0 : Rmean =   3.784509e-05 Rmax =   1.123077e+01
+
+ *** STEP 49: t= 4.9 - dt= 0.1 - CPU= 3.22s/5.09s
+
+mechanical iteration  0 : Rmean =   3.373334e-05 Rmax =   1.122627e+01
+
+ *** STEP 50: t= 5 - dt= 0.1 - CPU= 3.27s/5.14s
+
+mechanical iteration  0 : Rmean =   2.027384e-05 Rmax =   7.477375e+00
+Saving BZOutArchive (version=22) ...
+
+ *** STEP 51: t= 5.1 - dt= 0.1 - CPU= 3.33s/5.21s
+
+mechanical iteration  0 : Rmean =   8.057379e-02 Rmax =   3.354440e+04
+mechanical iteration  1 : Rmean =   4.055572e-01 Rmax =   1.011786e+05
+mechanical iteration  2 : Rmean =   7.294057e-04 Rmax =   2.046506e+02
+mechanical iteration  3 : Rmean =   2.926692e-10 Rmax =   9.361499e-05
+
+ *** STEP 52: t= 5.2 - dt= 0.1 - CPU= 3.38s/5.27s
+
+mechanical iteration  0 : Rmean =   3.783285e-05 Rmax =   1.122588e+01
+
+ *** STEP 53: t= 5.3 - dt= 0.1 - CPU= 3.42s/5.32s
+
+mechanical iteration  0 : Rmean =   1.005141e-04 Rmax =   2.620209e+01
+mechanical iteration  1 : Rmean =   5.610326e-12 Rmax =   1.315661e-06
+
+ *** STEP 54: t= 5.4 - dt= 0.1 - CPU= 3.46s/5.37s
+
+mechanical iteration  0 : Rmean =   3.330562e-05 Rmax =   7.483830e+00
+
+ *** STEP 55: t= 5.5 - dt= 0.1 - CPU= 3.50s/5.42s
+
+mechanical iteration  0 : Rmean =   5.946802e-05 Rmax =   1.122398e+01
+
+ *** STEP 56: t= 5.6 - dt= 0.1 - CPU= 3.54s/5.47s
+
+mechanical iteration  0 : Rmean =   7.339808e-05 Rmax =   1.121881e+01
+
+ *** STEP 57: t= 5.7 - dt= 0.1 - CPU= 3.58s/5.52s
+
+mechanical iteration  0 : Rmean =   6.376577e-05 Rmax =   7.466679e+00
+
+ *** STEP 58: t= 5.8 - dt= 0.1 - CPU= 3.62s/5.57s
+
+mechanical iteration  0 : Rmean =   3.877638e-07 Rmax =   3.405147e-02
+
+ *** STEP 59: t= 5.9 - dt= 0.1 - CPU= 3.66s/5.62s
+
+mechanical iteration  0 : Rmean =   2.386892e-04 Rmax =   1.128501e+01
+mechanical iteration  1 : Rmean =   5.643009e-12 Rmax =   2.394048e-07
+
+ *** STEP 60: t= 6 - dt= 0.1 - CPU= 3.70s/5.67s
+
+mechanical iteration  0 : Rmean =   2.183607e-04 Rmax =   3.713581e+00
+mechanical iteration  1 : Rmean =   3.253806e-12 Rmax =   8.353529e-08
+Saving BZOutArchive (version=22) ...
+
+ *** STEP 61: t= 6.1 - dt= 0.1 - CPU= 3.76s/5.74s
+
+mechanical iteration  0 : Rmean =   1.007515e-04 Rmax =   3.747867e+00
+mechanical iteration  1 : Rmean =   1.207128e-12 Rmax =   6.161264e-08
+
+ *** STEP 62: t= 6.2 - dt= 0.1 - CPU= 3.81s/5.80s
+
+mechanical iteration  0 : Rmean =   5.394863e-05 Rmax =   3.748095e+00
+
+ *** STEP 63: t= 6.3 - dt= 0.1 - CPU= 3.85s/5.85s
+
+mechanical iteration  0 : Rmean =   1.077524e-04 Rmax =   1.124592e+01
+mechanical iteration  1 : Rmean =   2.690147e-12 Rmax =   2.830766e-07
+
+ *** STEP 64: t= 6.4 - dt= 0.1 - CPU= 3.89s/5.90s
+
+mechanical iteration  0 : Rmean =   6.302898e-09 Rmax =   9.537605e-04
+
+ *** STEP 65: t= 6.5 - dt= 0.1 - CPU= 3.93s/5.96s
+
+mechanical iteration  0 : Rmean =   2.131485e-05 Rmax =   3.746872e+00
+
+ *** STEP 66: t= 6.6 - dt= 0.1 - CPU= 3.97s/6.01s
+
+mechanical iteration  0 : Rmean =   5.309569e-05 Rmax =   1.124512e+01
+
+ *** STEP 67: t= 6.7 - dt= 0.1 - CPU= 4.01s/6.06s
+
+mechanical iteration  0 : Rmean =   9.075347e-05 Rmax =   2.249542e+01
+
+ *** STEP 68: t= 6.8 - dt= 0.1 - CPU= 4.06s/6.11s
+
+mechanical iteration  0 : Rmean =   1.320339e-04 Rmax =   3.749942e+01
+mechanical iteration  1 : Rmean =   1.055642e-11 Rmax =   2.701109e-06
+
+ *** STEP 69: t= 6.9 - dt= 0.1 - CPU= 4.10s/6.16s
+
+mechanical iteration  0 : Rmean =   5.858481e-05 Rmax =   1.875419e+01
+
+ *** STEP 70: t= 7 - dt= 0.1 - CPU= 4.15s/6.21s
+
+mechanical iteration  0 : Rmean =   1.000871e-04 Rmax =   3.752025e+01
+mechanical iteration  1 : Rmean =   1.471841e-08 Rmax =   5.936116e-03
+Saving BZOutArchive (version=22) ...
+
+ *** STEP 71: t= 7.1 - dt= 0.1 - CPU= 4.21s/6.29s
+
+mechanical iteration  0 : Rmean =   7.590643e-02 Rmax =   2.977715e+04
+mechanical iteration  1 : Rmean =   2.281667e-01 Rmax =   5.860241e+04
+mechanical iteration  2 : Rmean =   2.243635e-04 Rmax =   6.240487e+01
+mechanical iteration  3 : Rmean =   2.673667e-11 Rmax =   8.995598e-06
+
+ *** STEP 72: t= 7.2 - dt= 0.1 - CPU= 4.27s/6.36s
+
+mechanical iteration  0 : Rmean =   1.318801e-05 Rmax =   3.747428e+00
+
+ *** STEP 73: t= 7.3 - dt= 0.1 - CPU= 4.31s/6.40s
+
+mechanical iteration  0 : Rmean =   4.533580e-05 Rmax =   1.124173e+01
+
+ *** STEP 74: t= 7.4 - dt= 0.1 - CPU= 4.35s/6.46s
+
+mechanical iteration  0 : Rmean =   1.061091e-04 Rmax =   2.248127e+01
+mechanical iteration  1 : Rmean =   5.067686e-12 Rmax =   9.699143e-07
+
+ *** STEP 75: t= 7.5 - dt= 0.1 - CPU= 4.39s/6.51s
+
+mechanical iteration  0 : Rmean =   4.258221e-05 Rmax =   7.489672e+00
+
+ *** STEP 76: t= 7.6 - dt= 0.1 - CPU= 4.43s/6.55s
+
+mechanical iteration  0 : Rmean =   8.018756e-05 Rmax =   1.122893e+01
+
+ *** STEP 77: t= 7.7 - dt= 0.1 - CPU= 4.47s/6.60s
+
+mechanical iteration  0 : Rmean =   1.074013e-04 Rmax =   1.121940e+01
+mechanical iteration  1 : Rmean =   2.657741e-12 Rmax =   2.502480e-07
+
+ *** STEP 78: t= 7.8 - dt= 0.1 - CPU= 4.51s/6.66s
+
+mechanical iteration  0 : Rmean =   2.153651e-04 Rmax =   1.497184e+01
+mechanical iteration  1 : Rmean =   6.900779e-12 Rmax =   4.433096e-07
+
+ *** STEP 79: t= 7.9 - dt= 0.1 - CPU= 4.55s/6.70s
+
+mechanical iteration  0 : Rmean =   1.007726e-04 Rmax =   3.746916e+00
+mechanical iteration  1 : Rmean =   1.112681e-12 Rmax =   5.617696e-08
+
+ *** STEP 80: t= 8 - dt= 0.1 - CPU= 4.60s/6.76s
+
+mechanical iteration  0 : Rmean =   2.205897e-04 Rmax =   3.746687e+00
+mechanical iteration  1 : Rmean =   2.507034e-12 Rmax =   5.041187e-08
+Saving BZOutArchive (version=22) ...
+
+ *** STEP 81: t= 8.1 - dt= 0.1 - CPU= 4.67s/6.84s
+
+mechanical iteration  0 : Rmean =   7.930118e-05 Rmax =   3.746460e+00
+
+ *** STEP 82: t= 8.2 - dt= 0.1 - CPU= 4.71s/6.89s
+
+mechanical iteration  0 : Rmean =   1.375806e-04 Rmax =   1.123774e+01
+mechanical iteration  1 : Rmean =   3.316966e-12 Rmax =   2.461422e-07
+
+ *** STEP 83: t= 8.3 - dt= 0.1 - CPU= 4.77s/6.96s
+
+mechanical iteration  0 : Rmean =   7.525969e-09 Rmax =   9.536026e-04
+
+ *** STEP 84: t= 8.4 - dt= 0.1 - CPU= 4.81s/7.01s
+
+mechanical iteration  0 : Rmean =   2.452009e-05 Rmax =   3.747682e+00
+
+ *** STEP 85: t= 8.5 - dt= 0.1 - CPU= 4.85s/7.06s
+
+mechanical iteration  0 : Rmean =   5.955197e-05 Rmax =   1.123855e+01
+
+ *** STEP 86: t= 8.6 - dt= 0.1 - CPU= 4.89s/7.10s
+
+mechanical iteration  0 : Rmean =   1.000219e-04 Rmax =   2.247192e+01
+mechanical iteration  1 : Rmean =   4.806405e-12 Rmax =   9.797282e-07
+
+ *** STEP 87: t= 8.7 - dt= 0.1 - CPU= 4.93s/7.17s
+
+mechanical iteration  0 : Rmean =   2.872655e-05 Rmax =   7.489227e+00
+
+ *** STEP 88: t= 8.8 - dt= 0.1 - CPU= 4.97s/7.22s
+
+mechanical iteration  0 : Rmean =   3.784716e-05 Rmax =   1.123077e+01
+
+ *** STEP 89: t= 8.9 - dt= 0.1 - CPU= 5.02s/7.29s
+
+mechanical iteration  0 : Rmean =   3.373495e-05 Rmax =   1.122628e+01
+
+ *** STEP 90: t= 9 - dt= 0.1 - CPU= 5.06s/7.34s
+
+mechanical iteration  0 : Rmean =   2.027470e-05 Rmax =   7.477378e+00
+Saving BZOutArchive (version=22) ...
+
+ *** STEP 91: t= 9.1 - dt= 0.1 - CPU= 5.10s/7.39s
+
+mechanical iteration  0 : Rmean =   8.058588e-02 Rmax =   3.354918e+04
+mechanical iteration  1 : Rmean =   4.056600e-01 Rmax =   1.011996e+05
+mechanical iteration  2 : Rmean =   7.296323e-04 Rmax =   2.047115e+02
+mechanical iteration  3 : Rmean =   2.928216e-10 Rmax =   9.365525e-05
+
+ *** STEP 92: t= 9.2 - dt= 0.1 - CPU= 5.16s/7.46s
+
+mechanical iteration  0 : Rmean =   3.783492e-05 Rmax =   1.122588e+01
+
+ *** STEP 93: t= 9.3 - dt= 0.1 - CPU= 5.20s/7.51s
+
+mechanical iteration  0 : Rmean =   1.005205e-04 Rmax =   2.620210e+01
+mechanical iteration  1 : Rmean =   5.622349e-12 Rmax =   1.324173e-06
+
+ *** STEP 94: t= 9.4 - dt= 0.1 - CPU= 5.24s/7.56s
+
+mechanical iteration  0 : Rmean =   3.330816e-05 Rmax =   7.483834e+00
+
+ *** STEP 95: t= 9.5 - dt= 0.1 - CPU= 5.28s/7.61s
+
+mechanical iteration  0 : Rmean =   5.947364e-05 Rmax =   1.122398e+01
+
+ *** STEP 96: t= 9.6 - dt= 0.1 - CPU= 5.32s/7.65s
+
+mechanical iteration  0 : Rmean =   7.340711e-05 Rmax =   1.121881e+01
+
+ *** STEP 97: t= 9.7 - dt= 0.1 - CPU= 5.36s/7.71s
+
+mechanical iteration  0 : Rmean =   6.377683e-05 Rmax =   7.466681e+00
+
+ *** STEP 98: t= 9.8 - dt= 0.1 - CPU= 5.40s/7.76s
+
+mechanical iteration  0 : Rmean =   3.878907e-07 Rmax =   3.405176e-02
+
+ *** STEP 99: t= 9.9 - dt= 0.1 - CPU= 5.45s/7.81s
+
+mechanical iteration  0 : Rmean =   2.388286e-04 Rmax =   1.128502e+01
+mechanical iteration  1 : Rmean =   5.728269e-12 Rmax =   2.451021e-07
+
+ *** STEP 100: t= 10 - dt= 0.1 - CPU= 5.50s/7.87s
+
+mechanical iteration  0 : Rmean =   2.187956e-04 Rmax =   3.713580e+00
+mechanical iteration  1 : Rmean =   1.945541e-12 Rmax =   4.720402e-08
+Saving BZOutArchive (version=22) ...
+
+ *** STEP 101: t= 10.1 - dt= 0.1 - CPU= 5.57s/7.97s
+
+mechanical iteration  0 : Rmean =   1.007960e-04 Rmax =   3.747869e+00
+mechanical iteration  1 : Rmean =   1.188468e-12 Rmax =   6.372469e-08
+
+ *** STEP 102: t= 10.2 - dt= 0.1 - CPU= 5.61s/8.02s
+
+mechanical iteration  0 : Rmean =   5.395032e-05 Rmax =   3.748097e+00
+
+ *** STEP 103: t= 10.3 - dt= 0.1 - CPU= 5.65s/8.07s
+
+mechanical iteration  0 : Rmean =   1.077490e-04 Rmax =   1.124593e+01
+mechanical iteration  1 : Rmean =   2.635214e-12 Rmax =   2.895048e-07
+
+ *** STEP 104: t= 10.4 - dt= 0.1 - CPU= 5.69s/8.12s
+
+mechanical iteration  0 : Rmean =   6.302612e-09 Rmax =   9.537827e-04
+
+ *** STEP 105: t= 10.5 - dt= 0.1 - CPU= 5.73s/8.17s
+
+mechanical iteration  0 : Rmean =   2.131393e-05 Rmax =   3.746874e+00
+
+ *** STEP 106: t= 10.6 - dt= 0.1 - CPU= 5.78s/8.23s
+
+mechanical iteration  0 : Rmean =   5.309353e-05 Rmax =   1.124512e+01
+
+ *** STEP 107: t= 10.7 - dt= 0.1 - CPU= 5.82s/8.28s
+
+mechanical iteration  0 : Rmean =   9.075005e-05 Rmax =   2.249543e+01
+
+ *** STEP 108: t= 10.8 - dt= 0.1 - CPU= 5.87s/8.34s
+
+mechanical iteration  0 : Rmean =   1.320293e-04 Rmax =   3.749944e+01
+mechanical iteration  1 : Rmean =   1.060315e-11 Rmax =   2.722234e-06
+
+ *** STEP 109: t= 10.9 - dt= 0.1 - CPU= 5.92s/8.41s
+
+mechanical iteration  0 : Rmean =   5.858293e-05 Rmax =   1.875420e+01
+
+ *** STEP 110: t= 11 - dt= 0.1 - CPU= 5.96s/8.46s
+
+mechanical iteration  0 : Rmean =   9.476518e-05 Rmax =   3.376553e+01
+Saving BZOutArchive (version=22) ...
+
+ *** STEP 111: t= 11.1 - dt= 0.1 - CPU= 6.01s/8.51s
+
+mechanical iteration  0 : Rmean =   7.574721e-02 Rmax =   2.971437e+04
+mechanical iteration  1 : Rmean =   2.280750e-01 Rmax =   5.858565e+04
+mechanical iteration  2 : Rmean =   2.241828e-04 Rmax =   6.235785e+01
+mechanical iteration  3 : Rmean =   2.679798e-11 Rmax =   8.999811e-06
+
+ *** STEP 112: t= 11.2 - dt= 0.1 - CPU= 6.07s/8.59s
+
+mechanical iteration  0 : Rmean =   1.320354e-04 Rmax =   3.750133e+01
+mechanical iteration  1 : Rmean =   1.056179e-11 Rmax =   2.688107e-06
+
+ *** STEP 113: t= 11.3 - dt= 0.1 - CPU= 6.11s/8.64s
+
+mechanical iteration  0 : Rmean =   1.512267e-05 Rmax =   3.748293e+00
+
+ *** STEP 114: t= 11.4 - dt= 0.1 - CPU= 6.15s/8.69s
+
+mechanical iteration  0 : Rmean =   5.308540e-05 Rmax =   1.124323e+01
+
+ *** STEP 115: t= 11.5 - dt= 0.1 - CPU= 6.19s/8.74s
+
+mechanical iteration  0 : Rmean =   1.278803e-04 Rmax =   2.248318e+01
+mechanical iteration  1 : Rmean =   6.156706e-12 Rmax =   9.812322e-07
+
+ *** STEP 116: t= 11.6 - dt= 0.1 - CPU= 6.24s/8.81s
+
+mechanical iteration  0 : Rmean =   5.353805e-05 Rmax =   7.491399e+00
+
+ *** STEP 117: t= 11.7 - dt= 0.1 - CPU= 6.29s/8.88s
+
+mechanical iteration  0 : Rmean =   1.076541e-04 Rmax =   1.123261e+01
+mechanical iteration  1 : Rmean =   2.571424e-12 Rmax =   2.870672e-07
+
+ *** STEP 118: t= 11.8 - dt= 0.1 - CPU= 6.33s/8.92s
+
+mechanical iteration  0 : Rmean =   1.617242e-04 Rmax =   1.123573e+01
+mechanical iteration  1 : Rmean =   4.082047e-12 Rmax =   2.768279e-07
+
+ *** STEP 119: t= 11.9 - dt= 0.1 - CPU= 6.38s/8.97s
+
+mechanical iteration  0 : Rmean =   1.007726e-04 Rmax =   3.746916e+00
+mechanical iteration  1 : Rmean =   1.342068e-12 Rmax =   6.051050e-08
+
+ *** STEP 120: t= 12 - dt= 0.1 - CPU= 6.42s/9.03s
+
+mechanical iteration  0 : Rmean =   2.205897e-04 Rmax =   3.746687e+00
+mechanical iteration  1 : Rmean =   2.800705e-12 Rmax =   5.990779e-08
+Saving BZOutArchive (version=22) ...
+
+ *** STEP 121: t= 12.1 - dt= 0.1 - CPU= 6.47s/9.09s
+
+mechanical iteration  0 : Rmean =   7.930118e-05 Rmax =   3.746460e+00
+
+ *** STEP 122: t= 12.2 - dt= 0.1 - CPU= 6.51s/9.14s
+
+mechanical iteration  0 : Rmean =   1.375806e-04 Rmax =   1.123774e+01
+mechanical iteration  1 : Rmean =   3.221450e-12 Rmax =   2.422410e-07
+
+ *** STEP 123: t= 12.3 - dt= 0.1 - CPU= 6.57s/9.23s
+
+mechanical iteration  0 : Rmean =   7.525463e-09 Rmax =   9.535220e-04
+
+ *** STEP 124: t= 12.4 - dt= 0.1 - CPU= 6.62s/9.30s
+
+mechanical iteration  0 : Rmean =   2.452009e-05 Rmax =   3.747682e+00
+
+ *** STEP 125: t= 12.5 - dt= 0.1 - CPU= 6.68s/9.36s
+
+mechanical iteration  0 : Rmean =   5.955197e-05 Rmax =   1.123855e+01
+
+ *** STEP 126: t= 12.6 - dt= 0.1 - CPU= 6.72s/9.42s
+
+mechanical iteration  0 : Rmean =   1.000219e-04 Rmax =   2.247192e+01
+mechanical iteration  1 : Rmean =   4.832588e-12 Rmax =   9.567018e-07
+
+ *** STEP 127: t= 12.7 - dt= 0.1 - CPU= 6.77s/9.47s
+
+mechanical iteration  0 : Rmean =   2.872655e-05 Rmax =   7.489227e+00
+
+ *** STEP 128: t= 12.8 - dt= 0.1 - CPU= 6.80s/9.53s
+
+mechanical iteration  0 : Rmean =   3.784716e-05 Rmax =   1.123077e+01
+
+ *** STEP 129: t= 12.9 - dt= 0.1 - CPU= 6.84s/9.58s
+
+mechanical iteration  0 : Rmean =   3.373495e-05 Rmax =   1.122628e+01
+
+ *** STEP 130: t= 13 - dt= 0.1 - CPU= 6.88s/9.63s
+
+mechanical iteration  0 : Rmean =   2.027470e-05 Rmax =   7.477378e+00
+Saving BZOutArchive (version=22) ...
+
+ *** STEP 131: t= 13.1 - dt= 0.1 - CPU= 6.92s/9.68s
+
+mechanical iteration  0 : Rmean =   8.058588e-02 Rmax =   3.354918e+04
+mechanical iteration  1 : Rmean =   4.056600e-01 Rmax =   1.011996e+05
+mechanical iteration  2 : Rmean =   7.296323e-04 Rmax =   2.047115e+02
+mechanical iteration  3 : Rmean =   2.928483e-10 Rmax =   9.365088e-05
+
+ *** STEP 132: t= 13.2 - dt= 0.1 - CPU= 6.98s/9.74s
+
+mechanical iteration  0 : Rmean =   3.783492e-05 Rmax =   1.122588e+01
+
+ *** STEP 133: t= 13.3 - dt= 0.1 - CPU= 7.03s/9.82s
+
+mechanical iteration  0 : Rmean =   1.005205e-04 Rmax =   2.620210e+01
+mechanical iteration  1 : Rmean =   5.623945e-12 Rmax =   1.345306e-06
+
+ *** STEP 134: t= 13.4 - dt= 0.1 - CPU= 7.09s/9.89s
+
+mechanical iteration  0 : Rmean =   3.330816e-05 Rmax =   7.483833e+00
+
+ *** STEP 135: t= 13.5 - dt= 0.1 - CPU= 7.13s/9.94s
+
+mechanical iteration  0 : Rmean =   5.947363e-05 Rmax =   1.122398e+01
+
+ *** STEP 136: t= 13.6 - dt= 0.1 - CPU= 7.17s/9.99s
+
+mechanical iteration  0 : Rmean =   7.340710e-05 Rmax =   1.121881e+01
+
+ *** STEP 137: t= 13.7 - dt= 0.1 - CPU= 7.21s/10.06s
+
+mechanical iteration  0 : Rmean =   6.377681e-05 Rmax =   7.466678e+00
+
+ *** STEP 138: t= 13.8 - dt= 0.1 - CPU= 7.25s/10.11s
+
+mechanical iteration  0 : Rmean =   3.879273e-07 Rmax =   3.405505e-02
+
+ *** STEP 139: t= 13.9 - dt= 0.1 - CPU= 7.30s/10.16s
+
+mechanical iteration  0 : Rmean =   2.388287e-04 Rmax =   1.128502e+01
+mechanical iteration  1 : Rmean =   5.654940e-12 Rmax =   2.715564e-07
+
+ *** STEP 140: t= 14 - dt= 0.1 - CPU= 7.34s/10.21s
+
+mechanical iteration  0 : Rmean =   2.187955e-04 Rmax =   3.713576e+00
+mechanical iteration  1 : Rmean =   3.497145e-12 Rmax =   7.386339e-08
+Saving BZOutArchive (version=22) ...
+
+ *** STEP 141: t= 14.1 - dt= 0.1 - CPU= 7.39s/10.27s
+
+mechanical iteration  0 : Rmean =   1.007960e-04 Rmax =   3.747869e+00
+mechanical iteration  1 : Rmean =   9.442215e-13 Rmax =   4.295997e-08
+
+ *** STEP 142: t= 14.2 - dt= 0.1 - CPU= 7.46s/10.36s
+
+mechanical iteration  0 : Rmean =   5.395032e-05 Rmax =   3.748098e+00
+
+ *** STEP 143: t= 14.3 - dt= 0.1 - CPU= 7.51s/10.44s
+
+mechanical iteration  0 : Rmean =   1.077490e-04 Rmax =   1.124593e+01
+mechanical iteration  1 : Rmean =   2.648390e-12 Rmax =   2.741158e-07
+
+ *** STEP 144: t= 14.4 - dt= 0.1 - CPU= 7.56s/10.51s
+
+mechanical iteration  0 : Rmean =   6.302880e-09 Rmax =   9.537959e-04
+
+ *** STEP 145: t= 14.5 - dt= 0.1 - CPU= 7.60s/10.56s
+
+mechanical iteration  0 : Rmean =   2.131393e-05 Rmax =   3.746874e+00
+
+ *** STEP 146: t= 14.6 - dt= 0.1 - CPU= 7.64s/10.61s
+
+mechanical iteration  0 : Rmean =   5.309353e-05 Rmax =   1.124512e+01
+
+ *** STEP 147: t= 14.7 - dt= 0.1 - CPU= 7.68s/10.66s
+
+mechanical iteration  0 : Rmean =   9.075005e-05 Rmax =   2.249543e+01
+
+ *** STEP 148: t= 14.8 - dt= 0.1 - CPU= 7.72s/10.71s
+
+mechanical iteration  0 : Rmean =   1.320293e-04 Rmax =   3.749944e+01
+mechanical iteration  1 : Rmean =   1.052604e-11 Rmax =   2.689203e-06
+
+ *** STEP 149: t= 14.9 - dt= 0.1 - CPU= 7.78s/10.84s
+
+mechanical iteration  0 : Rmean =   5.858293e-05 Rmax =   1.875420e+01
+
+ *** STEP 150: t= 15 - dt= 0.1 - CPU= 7.82s/10.90s
+
+mechanical iteration  0 : Rmean =   9.476518e-05 Rmax =   3.376553e+01
+Saving BZOutArchive (version=22) ...
+
+ *** STEP 151: t= 15.1 - dt= 0.1 - CPU= 7.88s/10.97s
+
+mechanical iteration  0 : Rmean =   7.574721e-02 Rmax =   2.971437e+04
+mechanical iteration  1 : Rmean =   2.280750e-01 Rmax =   5.858565e+04
+mechanical iteration  2 : Rmean =   2.241828e-04 Rmax =   6.235785e+01
+mechanical iteration  3 : Rmean =   2.668990e-11 Rmax =   8.968503e-06
+
+ *** STEP 152: t= 15.2 - dt= 0.1 - CPU= 7.95s/11.06s
+
+mechanical iteration  0 : Rmean =   1.320354e-04 Rmax =   3.750133e+01
+mechanical iteration  1 : Rmean =   1.054609e-11 Rmax =   2.710021e-06
+
+ *** STEP 153: t= 15.3 - dt= 0.1 - CPU= 7.99s/11.11s
+
+mechanical iteration  0 : Rmean =   1.512267e-05 Rmax =   3.748293e+00
+
+ *** STEP 154: t= 15.4 - dt= 0.1 - CPU= 8.03s/11.16s
+
+mechanical iteration  0 : Rmean =   5.308540e-05 Rmax =   1.124323e+01
+
+ *** STEP 155: t= 15.5 - dt= 0.1 - CPU= 8.07s/11.21s
+
+mechanical iteration  0 : Rmean =   1.278803e-04 Rmax =   2.248318e+01
+mechanical iteration  1 : Rmean =   6.115041e-12 Rmax =   9.860369e-07
+
+ *** STEP 156: t= 15.6 - dt= 0.1 - CPU= 8.11s/11.26s
+
+mechanical iteration  0 : Rmean =   5.353805e-05 Rmax =   7.491399e+00
+
+ *** STEP 157: t= 15.7 - dt= 0.1 - CPU= 8.15s/11.31s
+
+mechanical iteration  0 : Rmean =   1.076541e-04 Rmax =   1.123261e+01
+mechanical iteration  1 : Rmean =   2.585220e-12 Rmax =   2.527557e-07
+
+ *** STEP 158: t= 15.8 - dt= 0.1 - CPU= 8.19s/11.36s
+
+mechanical iteration  0 : Rmean =   1.617242e-04 Rmax =   1.123573e+01
+mechanical iteration  1 : Rmean =   4.082096e-12 Rmax =   2.671818e-07
+
+ *** STEP 159: t= 15.9 - dt= 0.1 - CPU= 8.24s/11.41s
+
+mechanical iteration  0 : Rmean =   1.007726e-04 Rmax =   3.746916e+00
+mechanical iteration  1 : Rmean =   1.077947e-12 Rmax =   5.698581e-08
+
+ *** STEP 160: t= 16 - dt= 0.1 - CPU= 8.29s/11.48s
+
+mechanical iteration  0 : Rmean =   2.205897e-04 Rmax =   3.746687e+00
+mechanical iteration  1 : Rmean =   2.403603e-12 Rmax =   4.771080e-08
+Saving BZOutArchive (version=22) ...
+
+ *** STEP 161: t= 16.1 - dt= 0.1 - CPU= 8.35s/11.56s
+
+mechanical iteration  0 : Rmean =   7.930118e-05 Rmax =   3.746460e+00
+
+ *** STEP 162: t= 16.2 - dt= 0.1 - CPU= 8.40s/11.62s
+
+mechanical iteration  0 : Rmean =   1.375806e-04 Rmax =   1.123774e+01
+mechanical iteration  1 : Rmean =   3.250073e-12 Rmax =   2.444068e-07
+
+ *** STEP 163: t= 16.3 - dt= 0.1 - CPU= 8.45s/11.69s
+
+mechanical iteration  0 : Rmean =   7.525510e-09 Rmax =   9.535426e-04
+
+ *** STEP 164: t= 16.4 - dt= 0.1 - CPU= 8.49s/11.74s
+
+mechanical iteration  0 : Rmean =   2.452009e-05 Rmax =   3.747682e+00
+
+ *** STEP 165: t= 16.5 - dt= 0.1 - CPU= 8.53s/11.79s
+
+mechanical iteration  0 : Rmean =   5.955197e-05 Rmax =   1.123855e+01
+
+ *** STEP 166: t= 16.6 - dt= 0.1 - CPU= 8.57s/11.84s
+
+mechanical iteration  0 : Rmean =   1.000219e-04 Rmax =   2.247192e+01
+mechanical iteration  1 : Rmean =   4.823701e-12 Rmax =   9.716048e-07
+
+ *** STEP 167: t= 16.7 - dt= 0.1 - CPU= 8.61s/11.89s
+
+mechanical iteration  0 : Rmean =   2.872655e-05 Rmax =   7.489227e+00
+
+ *** STEP 168: t= 16.8 - dt= 0.1 - CPU= 8.66s/11.94s
+
+mechanical iteration  0 : Rmean =   3.784716e-05 Rmax =   1.123077e+01
+
+ *** STEP 169: t= 16.9 - dt= 0.1 - CPU= 8.70s/11.99s
+
+mechanical iteration  0 : Rmean =   3.373495e-05 Rmax =   1.122628e+01
+
+ *** STEP 170: t= 17 - dt= 0.1 - CPU= 8.75s/12.06s
+
+mechanical iteration  0 : Rmean =   2.027470e-05 Rmax =   7.477378e+00
+Saving BZOutArchive (version=22) ...
+
+ *** STEP 171: t= 17.1 - dt= 0.1 - CPU= 8.80s/12.11s
+
+mechanical iteration  0 : Rmean =   8.058588e-02 Rmax =   3.354918e+04
+mechanical iteration  1 : Rmean =   4.056600e-01 Rmax =   1.011996e+05
+mechanical iteration  2 : Rmean =   7.296323e-04 Rmax =   2.047115e+02
+mechanical iteration  3 : Rmean =   2.927774e-10 Rmax =   9.365193e-05
+
+ *** STEP 172: t= 17.2 - dt= 0.1 - CPU= 8.88s/12.20s
+
+mechanical iteration  0 : Rmean =   3.783492e-05 Rmax =   1.122588e+01
+
+ *** STEP 173: t= 17.3 - dt= 0.1 - CPU= 8.92s/12.26s
+
+mechanical iteration  0 : Rmean =   1.005205e-04 Rmax =   2.620210e+01
+mechanical iteration  1 : Rmean =   5.638782e-12 Rmax =   1.325964e-06
+
+ *** STEP 174: t= 17.4 - dt= 0.1 - CPU= 8.96s/12.31s
+
+mechanical iteration  0 : Rmean =   3.330816e-05 Rmax =   7.483833e+00
+
+ *** STEP 175: t= 17.5 - dt= 0.1 - CPU= 9.00s/12.36s
+
+mechanical iteration  0 : Rmean =   5.947363e-05 Rmax =   1.122398e+01
+
+ *** STEP 176: t= 17.6 - dt= 0.1 - CPU= 9.04s/12.41s
+
+mechanical iteration  0 : Rmean =   7.340710e-05 Rmax =   1.121881e+01
+
+ *** STEP 177: t= 17.7 - dt= 0.1 - CPU= 9.08s/12.46s
+
+mechanical iteration  0 : Rmean =   6.377681e-05 Rmax =   7.466680e+00
+
+ *** STEP 178: t= 17.8 - dt= 0.1 - CPU= 9.12s/12.51s
+
+mechanical iteration  0 : Rmean =   3.879188e-07 Rmax =   3.405353e-02
+
+ *** STEP 179: t= 17.9 - dt= 0.1 - CPU= 9.18s/12.59s
+
+mechanical iteration  0 : Rmean =   2.388286e-04 Rmax =   1.128502e+01
+mechanical iteration  1 : Rmean =   5.770960e-12 Rmax =   2.688875e-07
+
+ *** STEP 180: t= 18 - dt= 0.1 - CPU= 9.22s/12.64s
+
+mechanical iteration  0 : Rmean =   2.187955e-04 Rmax =   3.713579e+00
+mechanical iteration  1 : Rmean =   2.578765e-12 Rmax =   6.615911e-08
+Saving BZOutArchive (version=22) ...
+
+ *** STEP 181: t= 18.1 - dt= 0.1 - CPU= 9.28s/12.71s
+
+mechanical iteration  0 : Rmean =   1.007960e-04 Rmax =   3.747869e+00
+mechanical iteration  1 : Rmean =   1.208233e-12 Rmax =   7.104395e-08
+
+ *** STEP 182: t= 18.2 - dt= 0.1 - CPU= 9.32s/12.76s
+
+mechanical iteration  0 : Rmean =   5.395032e-05 Rmax =   3.748098e+00
+
+ *** STEP 183: t= 18.3 - dt= 0.1 - CPU= 9.36s/12.81s
+
+mechanical iteration  0 : Rmean =   1.077490e-04 Rmax =   1.124593e+01
+mechanical iteration  1 : Rmean =   2.749267e-12 Rmax =   2.945840e-07
+
+ *** STEP 184: t= 18.4 - dt= 0.1 - CPU= 9.41s/12.86s
+
+mechanical iteration  0 : Rmean =   6.303047e-09 Rmax =   9.537969e-04
+
+ *** STEP 185: t= 18.5 - dt= 0.1 - CPU= 9.45s/12.91s
+
+mechanical iteration  0 : Rmean =   2.131393e-05 Rmax =   3.746874e+00
+
+ *** STEP 186: t= 18.6 - dt= 0.1 - CPU= 9.49s/12.98s
+
+mechanical iteration  0 : Rmean =   5.309353e-05 Rmax =   1.124512e+01
+
+ *** STEP 187: t= 18.7 - dt= 0.1 - CPU= 9.54s/13.03s
+
+mechanical iteration  0 : Rmean =   9.075005e-05 Rmax =   2.249543e+01
+
+ *** STEP 188: t= 18.8 - dt= 0.1 - CPU= 9.60s/13.11s
+
+mechanical iteration  0 : Rmean =   1.320293e-04 Rmax =   3.749944e+01
+mechanical iteration  1 : Rmean =   1.054113e-11 Rmax =   2.717991e-06
+
+ *** STEP 189: t= 18.9 - dt= 0.1 - CPU= 9.65s/13.16s
+
+mechanical iteration  0 : Rmean =   5.858293e-05 Rmax =   1.875420e+01
+
+ *** STEP 190: t= 19 - dt= 0.1 - CPU= 9.69s/13.21s
+
+mechanical iteration  0 : Rmean =   9.476518e-05 Rmax =   3.376553e+01
+Saving BZOutArchive (version=22) ...
+
+ *** STEP 191: t= 19.1 - dt= 0.1 - CPU= 9.73s/13.26s
+
+mechanical iteration  0 : Rmean =   7.574721e-02 Rmax =   2.971437e+04
+mechanical iteration  1 : Rmean =   2.280750e-01 Rmax =   5.858565e+04
+mechanical iteration  2 : Rmean =   2.241828e-04 Rmax =   6.235785e+01
+mechanical iteration  3 : Rmean =   2.681544e-11 Rmax =   9.014697e-06
+
+ *** STEP 192: t= 19.2 - dt= 0.1 - CPU= 9.78s/13.33s
+
+mechanical iteration  0 : Rmean =   1.320354e-04 Rmax =   3.750133e+01
+mechanical iteration  1 : Rmean =   1.055383e-11 Rmax =   2.706280e-06
+
+ *** STEP 193: t= 19.3 - dt= 0.1 - CPU= 9.82s/13.38s
+
+mechanical iteration  0 : Rmean =   1.512267e-05 Rmax =   3.748293e+00
+
+ *** STEP 194: t= 19.4 - dt= 0.1 - CPU= 9.86s/13.43s
+
+mechanical iteration  0 : Rmean =   5.308540e-05 Rmax =   1.124323e+01
+
+ *** STEP 195: t= 19.5 - dt= 0.1 - CPU= 9.90s/13.48s
+
+mechanical iteration  0 : Rmean =   1.278803e-04 Rmax =   2.248318e+01
+mechanical iteration  1 : Rmean =   6.116955e-12 Rmax =   9.761936e-07
+
+ *** STEP 196: t= 19.6 - dt= 0.1 - CPU= 9.95s/13.55s
+
+mechanical iteration  0 : Rmean =   5.353805e-05 Rmax =   7.491399e+00
+
+ *** STEP 197: t= 19.7 - dt= 0.1 - CPU= 10.01s/13.61s
+
+mechanical iteration  0 : Rmean =   1.076541e-04 Rmax =   1.123261e+01
+mechanical iteration  1 : Rmean =   2.674994e-12 Rmax =   2.854336e-07
+
+ *** STEP 198: t= 19.8 - dt= 0.1 - CPU= 10.05s/13.68s
+
+mechanical iteration  0 : Rmean =   1.617242e-04 Rmax =   1.123573e+01
+mechanical iteration  1 : Rmean =   4.029032e-12 Rmax =   2.590768e-07
+
+ *** STEP 199: t= 19.9 - dt= 0.1 - CPU= 10.09s/13.73s
+
+mechanical iteration  0 : Rmean =   1.007726e-04 Rmax =   3.746916e+00
+mechanical iteration  1 : Rmean =   1.085716e-12 Rmax =   4.519478e-08
+
+ *** STEP 200: t= 20 - dt= 0.1 - CPU= 10.14s/13.78s
+
+mechanical iteration  0 : Rmean =   2.205897e-04 Rmax =   3.746687e+00
+mechanical iteration  1 : Rmean =   2.438321e-12 Rmax =   4.674171e-08
+Saving BZOutArchive (version=22) ...
+
+Metafor: Successful run.
+
+User CPU : 10.20s
+Real CPU : 13.85s
+
+[TSC-STP]                         Number of steps : 200
+[TSC-ITE]              Number of mech. iterations : 108
+[TSC-INW]                         Internal energy : -175.652
+[TSC-EXW]                 Work of external forces : 91992.2
+[TSC-CPU]                           User CPU Time : 10.2
+[TSC-REA]                           Real CPU Time : 13.85
+[TSC-KER]                         Kernel CPU Time : 1.23
+[TSC-MEM]                        Peak Memory [Kb] : 0
+
