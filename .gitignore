@@ -1,0 +1,40 @@
+#-----------
+# Git Ignore
+#-----------
+# You can specify in this file which files and folder you
+# do not want to transfer over the github server
+
+# Metafor software
+/Metafor
+RunMetafor.sh
+
+# Pycaches
+/__pycache__
+/ASM-Part_1/__pycache__
+/ASM-Part_2/__pycache__
+/ASM-Part_3/__pycache__
+/ASM-Part_4/__pycache__
+
+# Workspaces
+/ASM-Part_1/workspace
+/ASM-Part_2/workspace
+/ASM-Part_3/workspace
+/ASM-Part_4/workspace
+
+# DS_Store files
+.DS_Store
+/ASM-Part_1/.DS_Store
+/ASM-Part_2/.DS_Store
+/ASM-Part_3/.DS_Store
+/ASM-Part_4/.DS_Store
+
+
+
+
+
+
+
+
+
+
+

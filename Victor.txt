@@ -1,7 +1,0 @@
-% code
-
-victor = "suce" ;
-
-if victor = "suce"
-disp(of course)
-end
