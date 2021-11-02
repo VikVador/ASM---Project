@@ -60,9 +60,10 @@ plot(time3,Sigma_Yield3)
 hold on 
 plot(time4,Sigma_Yield4)
 xlabel("time [s]")
-ylabel("Yield stress [MPa]")
-legend('Perfectly plastic','Linear Hardening','Kinematic hardening','Mixed hardening')
-set(gca,'FontSize',20)
+h = ylabel("'$\sigma_{Yield}$' [MPa]")
+legend('Perfectly plastic','Linear Hardening','Kinematic hardening','Mixed hardening');
+set(h,'interpreter','Latex','FontSize',25)
+set(gca,'FontSize',25)
 grid
 
 %-------------------------------
@@ -79,9 +80,10 @@ plot(time3,Sigma_XX3)
 hold on 
 plot(time4,Sigma_XX4)
 xlabel("time [s]")
-ylabel("\sigma_{XX} [MPa]")
+h = ylabel("$\sigma_x$ [MPa]");
+set(h,'interpreter','Latex','FontSize',25)
 legend('Perfectly plastic','Linear Hardening','Kinematic hardening','Mixed hardening')
-set(gca,'FontSize',20)
+set(gca,'fontsize',25)
 grid
 
 
@@ -102,9 +104,10 @@ plot(time3,EPL3)
 hold on 
 plot(time4,EPL4)
 xlabel("time [s]")
-ylabel("Elasto-plastic strain [-]")
+h = ylabel("$\bar{\varepsilon}^{p}$ [-]");
+set(h,'interpreter','Latex','FontSize',25)
 legend('Perfectly plastic','Linear Hardening','Kinematic hardening','Mixed hardening')
-set(gca,'FontSize',20)
+set(gca,'fontsize',25)
 grid
 
 
@@ -126,9 +129,10 @@ plot(time3,A_XX3)
 hold on 
 plot(time4,A_XX4)
 xlabel("time [s]")
-ylabel("Back stress [MPa]")
+h = ylabel("$\alpha_x$ [MPa]");
+set(h,'interpreter','Latex','FontSize',25)
 legend('Perfectly plastic','Linear Hardening','Kinematic hardening','Mixed hardening')
-set(gca,'FontSize',20)
+set(gca,'fontsize',25)
 grid
 
 

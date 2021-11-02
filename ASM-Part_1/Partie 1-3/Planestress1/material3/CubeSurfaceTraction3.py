@@ -275,7 +275,7 @@ elif p['GeometryHypothesis']=="PLANESTRAIN":
 #-------------------------------------------------
 
 #LOAD:                                                              
-Trac = 320.0                       #Traction
+Trac = 310.0                       #Traction
 Ncycle = 5                         #Number of cycles of loading/unloading
 Tcycle = 4.                        #Duration of one cycle
 
