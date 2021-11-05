@@ -1,5 +1,5 @@
 %Load metafor data in Matlab and create plots 
-results=importResults('.\workspace\CubeSurfaceTraction');
+results=importResults('./workspace/CubeSurfaceTraction');
 
 % % 1:Time
 % % 
