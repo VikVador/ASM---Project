@@ -1,10 +1,14 @@
 # Advanced-Solid-Mechanics
 
-## Workload
-
-Part 1 : Nicolas and Romain
+---------------------------------------------------------------------------------
+Part of the project |      1       |      2       |      3       |      4       |
+---------------------------------------------------------------------------------
 
 Part 2 : Victor and Ali
+
+Part 3 : /
+
+Part 4 : 
 
 ## Message
 
