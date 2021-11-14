@@ -1,32 +1,14 @@
 # Advanced-Solid-Mechanics
 
----------------------------------------------------------------------------------
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 Part of the project |      1       |      2       |      3       |      4       |
----------------------------------------------------------------------------------
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Group               |    N & R     |    A & V     |      /       |      /       |
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-Part 2 : Victor and Ali
+## To do list
 
-Part 3 : /
-
-Part 4 : 
-
-## Message
-
-Nicolas : 
-
-/
-
-Romain :
-
-/
-
-Ali :
-
-/
-
-Victor :
-
-Avant de commencer à faire votre projet, n'oubliez pas de pull la dernière version !
+Nothing to do now
 
 ## Basic Commands of GitHub
 
