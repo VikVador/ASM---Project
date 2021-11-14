@@ -155,10 +155,12 @@ SigmaY_0=200.0            #Elastic limit of virgin material
 h = 30000.0    
 
 m=1
-theta = 0.2**m            #Hardening parameter 
-hi=theta*h
-hk = (1-theta)*h
-etak = 0               #Dynamic recovery parameter
+theta = 0
+theta_m = theta**m  
+
+hi=theta_m*h
+hk = (1-theta_m)*h
+etak = 10              #Dynamic recovery parameter
 
 
 # Definition of the hardening law
@@ -167,12 +169,12 @@ lawset = domain.getMaterialLawSet()
 # Law 1 : for yield stress (h = 0)
 lawset1 = lawset.define(1, LinearIsotropicHardening)  #Create law number 1 as Linear Isotropic hardening law 
 lawset1.put(IH_SIGEL, SigmaY_0) #Set law parameters (see required parameters in the documentation)
-lawset1.put(IH_H, 0.)
+lawset1.put(IH_H, 0.) #Purely kinematic
 
 
 # Law 2 for a non-linear kinematic hardening law : theta = 0 so hk = h
 lawset2 = lawset.define(2, ArmstrongFrederickKinematicHardening) 
-lawset2.put(KH_H, h) #Set law parameter
+lawset2.put(KH_H, hk) #Set law parameter
 lawset2.put(KH_B, etak) 
 
 
@@ -222,7 +224,7 @@ elif p['GeometryHypothesis']=="PLANESTRAIN":
 #-------------------------------------------------
 
 #LOAD:                                                              
-Trac = 319                         #Traction
+Trac = 250                         #Traction
 Ncycle = 5                         #Number of cycles of loading/unloading
 Tcycle = 4.                        #Duration of one cycle
 
