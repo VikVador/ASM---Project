@@ -160,7 +160,7 @@ theta_m = theta**m
 
 hi=theta_m*h
 hk = (1-theta_m)*h
-etak = 10             #Dynamic recovery parameter
+etak = 5000           #Dynamic recovery parameter
 
 
 # Definition of the hardening law
