@@ -161,7 +161,7 @@ theta_m = theta**m
 
 hi=theta_m*h
 hk = (1-theta_m)*h
-etak = 100           #Dynamic recovery parameter
+etak = 1000           #Dynamic recovery parameter
 
 Q = SigmaY_inf - SigmaY_0
 ksi = hi/Q
@@ -229,7 +229,7 @@ elif p['GeometryHypothesis']=="PLANESTRAIN":
 #-------------------------------------------------
 
 #LOAD:                                                              
-Trac = 300                         #Traction
+Trac = 250                         #Traction
 Ncycle = 5                         #Number of cycles of loading/unloading
 Tcycle = 4.                        #Duration of one cycle
 

@@ -146,21 +146,18 @@ material1.put(MASS_DENSITY,    Density)
 material1.put(ELASTIC_MODULUS, Young)     
 material1.put(POISSON_RATIO,   Nu)
 material1.put(YIELD_NUM, 1)   
-material1.put(KH_NB, 1) #Number of hardening laws
-material1.put(KH_NUM1, 2) #Number of hardening law 1
+material1.put(KH_NB, 1) 
+material1.put(KH_NUM1, 2) 
 
 
 # Data of the materials 
 SigmaY_0=200.0            #Elastic limit of virgin material  
 h = 30000.0    
 
-m=1
 theta = 0.2
-theta_m = theta**m  
-
-hi=theta_m*h
-hk = (1-theta_m)*h
-etak = 5000           #Dynamic recovery parameter
+hi=theta*h
+hk = (1-theta)*h
+etak = 150           #Dynamic recovery parameter
 
 
 # Definition of the hardening law
