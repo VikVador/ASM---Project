@@ -327,6 +327,9 @@ valuesmanager.add(11, IFNodalValueExtractor(pointset(node_id), IF_ALP_XX),'A_XX'
 valuesmanager.add(12, IFNodalValueExtractor(pointset(node_id), IF_ALP_YY),'A_YY' )
 valuesmanager.add(13, IFNodalValueExtractor(pointset(node_id), IF_ALP_ZZ),'A_ZZ' )
 
+# Energy dissipation
+valuesmanager.add(14, TdFieldValueExtractor(metafor, volumeset(1), THERMODYN_EN_DIS  ), 'THERMODYN_EN_DIS')
+
 #---------------------------
 #  Visualtion in real time
 #---------------------------
