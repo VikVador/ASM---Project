@@ -248,14 +248,6 @@ elif p['GeometryHypothesis']=="PLANESTRAIN":
 #-------------
 #    Loads
 #-------------
-
-# 7.1 Definition of the loading function
-#---------------------------------------
-# LOAD:                                                              
-Trac = 250                         #Traction
-Ncycle = 5                         #Number of cycles of loading/unloading
-Tcycle = 4.                        #Duration of one cycle
-
 fct = PieceWiseLinearFunction()
 for i in range (0,Ncycle):
     fct.setData(i*Tcycle+0.,0.) #POINT n°1

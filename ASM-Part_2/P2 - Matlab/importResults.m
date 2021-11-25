@@ -14,5 +14,7 @@ function [AllCurves] = importResults(resultFolder)
 
     AllCurves(:,11)=load(strcat(resultFolder,'/A_XX.ascii'));
     AllCurves(:,12)=load(strcat(resultFolder,'/A_YY.ascii'));
-    AllCurves(:,13)=load(strcat(resultFolder,'/A_ZZ.ascii'));    
+    AllCurves(:,13)=load(strcat(resultFolder,'/A_ZZ.ascii'));  
+
+    AllCurves(:,14)=load(strcat(resultFolder,'/THERMODYN_EN_DIS.ascii'));
 end
