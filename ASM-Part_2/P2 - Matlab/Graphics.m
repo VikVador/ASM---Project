@@ -92,6 +92,23 @@ eps_eff_knl_2 = Results_knl_2(:,7);
 eps_eff_knl_3 = Results_knl_3(:,7);
 eps_eff_knl_4 = Results_knl_4(:,7);
 
+% Yield stress 
+%-----------------------
+yield_p_1 = Results_pure_1(:,6);
+yield_p_2 = Results_pure_2(:,6);
+yield_p_3 = Results_pure_3(:,6);
+yield_p_4 = Results_pure_4(:,6);
+
+yield_kl_1 = Results_kl_1(:,6);
+yield_kl_2 = Results_kl_2(:,6);
+yield_kl_3 = Results_kl_3(:,6);
+yield_kl_4 = Results_kl_4(:,6);
+
+yield_knl_1 = Results_knl_1(:,6);
+yield_knl_2 = Results_knl_2(:,6);
+yield_knl_3 = Results_knl_3(:,6);
+yield_knl_4 = Results_knl_4(:,6);
+
 % Backstress (XX)
 %----------------
 bck_XX_p_1 = Results_pure_1(:,11);
@@ -216,6 +233,42 @@ set(h,'interpreter','Latex','FontSize',25);
 set(gca,'fontsize',25);
 grid on;
 
+%Yield stress
+figure;
+%plot(t_kl_1, yield_kl_1, 'LineWidth', 2);
+%hold on
+plot(t_kl_2, yield_kl_2, 'LineWidth', 2);
+hold on
+plot(t_kl_3, yield_kl_3, 'LineWidth', 2);
+hold on
+plot(t_kl_4, yield_kl_4, 'LineWidth', 2);
+xlabel('Time [s]', 'FontSize', 24, 'interpreter', 'Latex');
+ylabel('$\sigma_{Yield}$ [J]', 'Fontsize', 24, 'interpreter', 'Latex');
+%h = legend('$t_{max} = 200 \ [MPa]$','$t_{max} = 250 \ [MPa]$','$t_{max} = 300 \ [MPa]$','$t_{max} = 350 \ [MPa]$');
+h = legend('$t_{max} = 250 \ [MPa]$','$t_{max} = 300 \ [MPa]$','$t_{max} = 350 \ [MPa]$');
+set(h,'interpreter','Latex','FontSize',25);
+set(gca,'fontsize',25);
+grid on;
+
+%Backstress (XX)
+figure;
+%plot(t_kl_1, bck_XX_kl_1, 'LineWidth', 2);
+%hold on
+plot(t_kl_2, bck_XX_kl_2, 'LineWidth', 2);
+hold on
+plot(t_kl_3, bck_XX_kl_3, 'LineWidth', 2);
+hold on
+plot(t_kl_4, bck_XX_kl_4, 'LineWidth', 2);
+xlabel('Time [s]', 'FontSize', 24, 'interpreter', 'Latex');
+ylabel('$\alpha_{xx}$ [MPa]', 'Fontsize', 24, 'interpreter', 'Latex');
+%h = legend('$t_{max} = 200 \ [MPa]$','$t_{max} = 250 \ [MPa]$','$t_{max} = 300 \ [MPa]$','$t_{max} = 350 \ [MPa]$');
+h = legend('$t_{max} = 250 \ [MPa]$','$t_{max} = 300 \ [MPa]$','$t_{max} = 350 \ [MPa]$');
+set(h,'interpreter','Latex','FontSize',25);
+set(gca,'fontsize',25);
+grid on;
+
+
+
 % Energy dissipation
 figure;
 plot(t_kl_1, thermo_diss_kl_1, 'LineWidth', 2);
@@ -231,6 +284,8 @@ h = legend('$t_{max} = 200 \ [MPa]$','$t_{max} = 250 \ [MPa]$','$t_{max} = 300 \
 set(h,'interpreter','Latex','FontSize',25);
 set(gca,'fontsize',25);
 grid on;
+
+%Yield stress
 
 %%
 %-------------------------------------
