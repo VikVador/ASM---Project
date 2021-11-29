@@ -93,7 +93,7 @@ eps_eff_knl_3 = Results_knl_3(:,7);
 eps_eff_knl_4 = Results_knl_4(:,7);
 
 % Yield stress 
-%-----------------------
+%-------------
 yield_p_1 = Results_pure_1(:,6);
 yield_p_2 = Results_pure_2(:,6);
 yield_p_3 = Results_pure_3(:,6);
@@ -108,6 +108,24 @@ yield_knl_1 = Results_knl_1(:,6);
 yield_knl_2 = Results_knl_2(:,6);
 yield_knl_3 = Results_knl_3(:,6);
 yield_knl_4 = Results_knl_4(:,6);
+
+% Von Mises stress 
+%-----------------
+VM_p_1 = Results_pure_1(:,5);
+VM_p_2 = Results_pure_2(:,5);
+VM_p_3 = Results_pure_3(:,5);
+VM_p_4 = Results_pure_4(:,5);
+
+VM_kl_1 = Results_kl_1(:,5);
+VM_kl_2 = Results_kl_2(:,5);
+VM_kl_3 = Results_kl_3(:,5);
+VM_kl_4 = Results_kl_4(:,5);
+
+VM_knl_1 = Results_knl_1(:,5);
+VM_knl_2 = Results_knl_2(:,5);
+VM_knl_3 = Results_knl_3(:,5);
+VM_knl_4 = Results_knl_4(:,5);
+
 
 % Backstress (XX)
 %----------------
@@ -125,6 +143,58 @@ bck_XX_knl_1 = Results_knl_1(:,11);
 bck_XX_knl_2 = Results_knl_2(:,11);
 bck_XX_knl_3 = Results_knl_3(:,11);
 bck_XX_knl_4 = Results_knl_4(:,11);
+
+% Backstress (YY)
+%----------------
+bck_YY_p_1 = Results_pure_1(:,12);
+bck_YY_p_2 = Results_pure_2(:,12);
+bck_YY_p_3 = Results_pure_3(:,12);
+bck_YY_p_4 = Results_pure_4(:,12);
+
+bck_YY_kl_1 = Results_kl_1(:,12);
+bck_YY_kl_2 = Results_kl_2(:,12);
+bck_YY_kl_3 = Results_kl_3(:,12);
+bck_YY_kl_4 = Results_kl_4(:,12);
+
+bck_YY_knl_1 = Results_knl_1(:,12);
+bck_YY_knl_2 = Results_knl_2(:,12);
+bck_YY_knl_3 = Results_knl_3(:,12);
+bck_YY_knl_4 = Results_knl_4(:,12);
+
+% Backstress (ZZ)
+%----------------
+bck_ZZ_p_1 = Results_pure_1(:,13);
+bck_ZZ_p_2 = Results_pure_2(:,13);
+bck_ZZ_p_3 = Results_pure_3(:,13);
+bck_ZZ_p_4 = Results_pure_4(:,13);
+
+bck_ZZ_kl_1 = Results_kl_1(:,13);
+bck_ZZ_kl_2 = Results_kl_2(:,13);
+bck_ZZ_kl_3 = Results_kl_3(:,13);
+bck_ZZ_kl_4 = Results_kl_4(:,13);
+
+bck_ZZ_knl_1 = Results_knl_1(:,13);
+bck_ZZ_knl_2 = Results_knl_2(:,13);
+bck_ZZ_knl_3 = Results_knl_3(:,13);
+bck_ZZ_knl_4 = Results_knl_4(:,13);
+
+% Equivalent Backstress
+%------------------------------------
+eq_bck_p_1 = sqrt(3/2 * ((bck_XX_p_1).^2 + (bck_YY_p_1).^2 + (bck_ZZ_p_1).^2));
+eq_bck_p_2 = sqrt(3/2 * ((bck_XX_p_2).^2 + (bck_YY_p_2).^2 + (bck_ZZ_p_2).^2));
+eq_bck_p_3 = sqrt(3/2 * ((bck_XX_p_3).^2 + (bck_YY_p_3).^2 + (bck_ZZ_p_3).^2));
+eq_bck_p_4 = sqrt(3/2 * ((bck_XX_p_4).^2 + (bck_YY_p_4).^2 + (bck_ZZ_p_4).^2));
+
+eq_bck_kl_1 = sqrt(3/2 * ((bck_XX_kl_1).^2 + (bck_YY_kl_1).^2 + (bck_ZZ_kl_1).^2));
+eq_bck_kl_2 = sqrt(3/2 * ((bck_XX_kl_2).^2 + (bck_YY_kl_2).^2 + (bck_ZZ_kl_2).^2));
+eq_bck_kl_3 = sqrt(3/2 * ((bck_XX_kl_3).^2 + (bck_YY_kl_3).^2 + (bck_ZZ_kl_3).^2));
+eq_bck_kl_4 = sqrt(3/2 * ((bck_XX_kl_4).^2 + (bck_YY_kl_4).^2 + (bck_ZZ_kl_4).^2));
+
+eq_bck_knl_1 = sqrt(3/2 * ((bck_XX_knl_1).^2 + (bck_YY_knl_1).^2 + (bck_ZZ_knl_1).^2));
+eq_bck_knl_2 = sqrt(3/2 * ((bck_XX_knl_2).^2 + (bck_YY_knl_2).^2 + (bck_ZZ_knl_2).^2));
+eq_bck_knl_3 = sqrt(3/2 * ((bck_XX_knl_3).^2 + (bck_YY_knl_3).^2 + (bck_ZZ_knl_3).^2));
+eq_bck_knl_4 = sqrt(3/2 * ((bck_XX_knl_4).^2 + (bck_YY_knl_4).^2 + (bck_ZZ_knl_4).^2));
+
 
 % Energy dissipation
 thermo_diss_p_1 = Results_pure_1(:,14);
@@ -151,8 +221,8 @@ thermo_diss_knl_4 = Results_knl_4(:,14);
 %-----------------
 % X axis - Strain
 figure;
-plot(t_pure_1, eps_xx_p_1, 'LineWidth', 2);
-hold on;
+% plot(t_pure_1, eps_xx_p_1, 'LineWidth', 2);
+% hold on;
 plot(t_pure_2, eps_xx_p_2, 'LineWidth', 2);
 hold on;
 plot(t_pure_3, eps_xx_p_3, 'LineWidth', 2);
@@ -160,15 +230,15 @@ hold on;
 plot(t_pure_4, eps_xx_p_4, 'LineWidth', 2);
 xlabel('Time [s]', 'FontSize', 24, 'interpreter', 'Latex');
 ylabel('$\varepsilon_{xx}$ [-]', 'Fontsize', 24, 'interpreter', 'Latex');
-h = legend('$t_{max} = 200 \ [MPa]$','$t_{max} = 250 \ [MPa]$','$t_{max} = 300 \ [MPa]$','$t_{max} = 350 \ [MPa]$');
+h = legend('$t_{max} = 250 \ [MPa]$','$t_{max} = 300 \ [MPa]$','$t_{max} = 350 \ [MPa]$');
 set(h,'interpreter','Latex','FontSize',25);
 set(gca,'fontsize',25);
 grid on;
 
 % Effective plastic strain
 figure;
-plot(t_pure_1, eps_eff_p_1, 'LineWidth', 2);
-hold on
+% plot(t_pure_1, eps_eff_p_1, 'LineWidth', 2);
+% hold on
 plot(t_pure_2, eps_eff_p_2, 'LineWidth', 2);
 hold on;
 plot(t_pure_3, eps_eff_p_3, 'LineWidth', 2);
@@ -176,15 +246,78 @@ hold on;
 plot(t_pure_4, eps_eff_p_4, 'LineWidth', 2);
 xlabel('Time [s]', 'FontSize', 24, 'interpreter', 'Latex');
 ylabel('$\overline{\varepsilon}^{vp}$ [-]', 'Fontsize', 24, 'interpreter', 'Latex');
-h = legend('$t_{max} = 200 \ [MPa]$','$t_{max} = 250 \ [MPa]$','$t_{max} = 300 \ [MPa]$','$t_{max} = 350 \ [MPa]$');
+h = legend('$t_{max} = 250 \ [MPa]$','$t_{max} = 300 \ [MPa]$','$t_{max} = 350 \ [MPa]$');
+set(h,'interpreter','Latex','FontSize',25);
+set(gca,'fontsize',25);
+grid on;
+
+%Yield stress
+figure;
+%plot(t_kl_1, yield_kl_1, 'LineWidth', 2);
+%hold on
+plot(t_pure_2, yield_p_2, 'LineWidth', 2);
+hold on
+plot(t_pure_3, yield_p_3, 'LineWidth', 2);
+hold on
+plot(t_pure_4, yield_p_4, 'LineWidth', 2);
+xlabel('Time [s]', 'FontSize', 24, 'interpreter', 'Latex');
+ylabel('$\sigma_{Yield}$ [J]', 'Fontsize', 24, 'interpreter', 'Latex');
+%h = legend('$t_{max} = 200 \ [MPa]$','$t_{max} = 250 \ [MPa]$','$t_{max} = 300 \ [MPa]$','$t_{max} = 350 \ [MPa]$');
+h = legend('$t_{max} = 250 \ [MPa]$','$t_{max} = 300 \ [MPa]$','$t_{max} = 350 \ [MPa]$');
+set(h,'interpreter','Latex','FontSize',25);
+set(gca,'fontsize',25);
+grid on;
+
+% Von Mises stress
+figure;
+% plot(t_pure_1, eps_eff_p_1, 'LineWidth', 2);
+% hold on
+plot(t_pure_2, VM_p_2, 'LineWidth', 2);
+hold on;
+plot(t_pure_3, VM_p_3, 'LineWidth', 2);
+hold on;
+plot(t_pure_4, VM_p_4, 'LineWidth', 2);
+xlabel('Time [s]', 'FontSize', 24, 'interpreter', 'Latex');
+ylabel('$\sigma_{VM}$ [MPa]', 'Fontsize', 24, 'interpreter', 'Latex');
+h = legend('$t_{max} = 250 \ [MPa]$','$t_{max} = 300 \ [MPa]$','$t_{max} = 350 \ [MPa]$');
+set(h,'interpreter','Latex','FontSize',25);
+set(gca,'fontsize',25);
+grid on;
+
+% Back Stress
+figure;
+plot(t_pure_2, bck_XX_p_2, 'LineWidth', 2);
+hold on;
+plot(t_pure_3, bck_XX_p_3, 'LineWidth', 2);
+hold on;
+plot(t_pure_4, bck_XX_p_4, 'LineWidth', 2);
+xlabel('Time [s]', 'FontSize', 24, 'interpreter', 'Latex');
+ylabel('$\alpha_{xx}$ [MPa]', 'Fontsize', 24, 'interpreter', 'Latex');
+h = legend('$t_{max} = 250 \ [MPa]$','$t_{max} = 300 \ [MPa]$','$t_{max} = 350 \ [MPa]$');
+set(h,'interpreter','Latex','FontSize',25);
+set(gca,'fontsize',25);
+grid on;
+
+% Equivalent backstress
+figure;
+% plot(t_pure_1, eq_bck_p_1, 'LineWidth', 2);
+% hold on;
+plot(t_pure_2, eq_bck_p_2, 'LineWidth', 2);
+hold on;
+plot(t_pure_3, eq_bck_p_3, 'LineWidth', 2);
+hold on;
+plot(t_pure_4, eq_bck_p_4, 'LineWidth', 2);
+xlabel('Time [s]', 'FontSize', 24, 'interpreter', 'Latex');
+ylabel('$\overline{\alpha}$ [MPa]', 'Fontsize', 24, 'interpreter', 'Latex');
+h = legend('$t_{max} = 250 \ [MPa]$','$t_{max} = 300 \ [MPa]$','$t_{max} = 350 \ [MPa]$');
 set(h,'interpreter','Latex','FontSize',25);
 set(gca,'fontsize',25);
 grid on;
 
 % Energy dissipation
 figure;
-plot(t_pure_1, thermo_diss_p_1, 'LineWidth', 2);
-hold on
+% plot(t_pure_1, thermo_diss_p_1, 'LineWidth', 2);
+% hold on
 plot(t_pure_2, thermo_diss_p_2, 'LineWidth', 2);
 hold on;
 plot(t_pure_3, thermo_diss_p_3, 'LineWidth', 2);
@@ -192,7 +325,7 @@ hold on;
 plot(t_pure_4, thermo_diss_p_4, 'LineWidth', 2);
 xlabel('Time [s]', 'FontSize', 24, 'interpreter', 'Latex');
 ylabel('Energy dissipation [J]', 'Fontsize', 24, 'interpreter', 'Latex');
-h = legend('$t_{max} = 200 \ [MPa]$','$t_{max} = 250 \ [MPa]$','$t_{max} = 300 \ [MPa]$','$t_{max} = 350 \ [MPa]$');
+h = legend('$t_{max} = 250 \ [MPa]$','$t_{max} = 300 \ [MPa]$','$t_{max} = 350 \ [MPa]$');
 set(h,'interpreter','Latex','FontSize',25);
 set(gca,'fontsize',25);
 grid on;
@@ -203,8 +336,8 @@ grid on;
 %---------------------------------
 % X axis - Strain
 figure;
-plot(t_kl_1, eps_xx_kl_1, 'LineWidth', 2);
-hold on;
+% plot(t_kl_1, eps_xx_kl_1, 'LineWidth', 2);
+% hold on;
 plot(t_kl_2, eps_xx_kl_2, 'LineWidth', 2);
 hold on;
 plot(t_kl_3, eps_xx_kl_3, 'LineWidth', 2);
@@ -219,8 +352,8 @@ grid on;
 
 % Effective plastic strain
 figure;
-plot(t_kl_1, eps_eff_kl_1, 'LineWidth', 2);
-hold on
+% plot(t_kl_1, eps_eff_kl_1, 'LineWidth', 2);
+% hold on
 plot(t_kl_2, eps_eff_kl_2, 'LineWidth', 2);
 hold on;
 plot(t_kl_3, eps_eff_kl_3, 'LineWidth', 2);
@@ -250,6 +383,22 @@ set(h,'interpreter','Latex','FontSize',25);
 set(gca,'fontsize',25);
 grid on;
 
+% Von Mises stress
+figure;
+% plot(t_pure_1, eps_eff_p_1, 'LineWidth', 2);
+% hold on
+plot(t_kl_2, VM_kl_2, 'LineWidth', 2);
+hold on;
+plot(t_kl_3, VM_kl_3, 'LineWidth', 2);
+hold on;
+plot(t_kl_4, VM_kl_4, 'LineWidth', 2);
+xlabel('Time [s]', 'FontSize', 24, 'interpreter', 'Latex');
+ylabel('$\sigma_{VM}$ [MPa]', 'Fontsize', 24, 'interpreter', 'Latex');
+h = legend('$t_{max} = 250 \ [MPa]$','$t_{max} = 300 \ [MPa]$','$t_{max} = 350 \ [MPa]$');
+set(h,'interpreter','Latex','FontSize',25);
+set(gca,'fontsize',25);
+grid on;
+
 %Backstress (XX)
 figure;
 %plot(t_kl_1, bck_XX_kl_1, 'LineWidth', 2);
@@ -267,12 +416,27 @@ set(h,'interpreter','Latex','FontSize',25);
 set(gca,'fontsize',25);
 grid on;
 
+% Equivalent backstress
+figure;
+% plot(t_pure_1, eq_bck_p_1, 'LineWidth', 2);
+% hold on;
+plot(t_kl_2, eq_bck_kl_2, 'LineWidth', 2);
+hold on;
+plot(t_kl_3, eq_bck_kl_3, 'LineWidth', 2);
+hold on;
+plot(t_kl_4, eq_bck_kl_4, 'LineWidth', 2);
+xlabel('Time [s]', 'FontSize', 24, 'interpreter', 'Latex');
+ylabel('$\overline{\alpha}$ [MPa]', 'Fontsize', 24, 'interpreter', 'Latex');
+h = legend('$t_{max} = 250 \ [MPa]$','$t_{max} = 300 \ [MPa]$','$t_{max} = 350 \ [MPa]$');
+set(h,'interpreter','Latex','FontSize',25);
+set(gca,'fontsize',25);
+grid on;
 
 
 % Energy dissipation
 figure;
-plot(t_kl_1, thermo_diss_kl_1, 'LineWidth', 2);
-hold on
+% plot(t_kl_1, thermo_diss_kl_1, 'LineWidth', 2);
+% hold on
 plot(t_kl_2, thermo_diss_kl_2, 'LineWidth', 2);
 hold on;
 plot(t_kl_3, thermo_diss_kl_3, 'LineWidth', 2);
@@ -280,7 +444,7 @@ hold on;
 plot(t_kl_4, thermo_diss_kl_4, 'LineWidth', 2);
 xlabel('Time [s]', 'FontSize', 24, 'interpreter', 'Latex');
 ylabel('Energy dissipation [J]', 'Fontsize', 24, 'interpreter', 'Latex');
-h = legend('$t_{max} = 200 \ [MPa]$','$t_{max} = 250 \ [MPa]$','$t_{max} = 300 \ [MPa]$','$t_{max} = 350 \ [MPa]$');
+h = legend('$t_{max} = 250 \ [MPa]$','$t_{max} = 300 \ [MPa]$','$t_{max} = 350 \ [MPa]$');
 set(h,'interpreter','Latex','FontSize',25);
 set(gca,'fontsize',25);
 grid on;
@@ -293,8 +457,8 @@ grid on;
 %-------------------------------------
 % X axis - Strain
 figure;
-plot(t_knl_1, eps_xx_knl_1, 'LineWidth', 2);
-hold on;
+% plot(t_knl_1, eps_xx_knl_1, 'LineWidth', 2);
+% hold on;
 plot(t_knl_2, eps_xx_knl_2, 'LineWidth', 2);
 hold on;
 plot(t_knl_3, eps_xx_knl_3, 'LineWidth', 2);
@@ -302,15 +466,15 @@ hold on;
 plot(t_knl_4, eps_xx_knl_4, 'LineWidth', 2);
 xlabel('Time [s]', 'FontSize', 24, 'interpreter', 'Latex');
 ylabel('$\varepsilon_{xx}$ [-]', 'Fontsize', 24, 'interpreter', 'Latex');
-h=legend('$t_{max} = 200 \ [MPa]$','$t_{max} = 250 \ [MPa]$','$t_{max} = 300 \ [MPa]$','$t_{max} = 350 \ [MPa]$');
+h = legend('$t_{max} = 250 \ [MPa]$','$t_{max} = 300 \ [MPa]$','$t_{max} = 350 \ [MPa]$');
 set(h,'interpreter','Latex','FontSize',25);
 set(gca,'fontsize',25);
 grid on;
 
 % Effective plastic strain
 figure;
-plot(t_knl_1, eps_eff_knl_1, 'LineWidth', 2);
-hold on
+% plot(t_knl_1, eps_eff_knl_1, 'LineWidth', 2);
+% hold on
 plot(t_knl_2, eps_eff_knl_2, 'LineWidth', 2);
 hold on;
 plot(t_knl_3, eps_eff_knl_3, 'LineWidth', 2);
@@ -318,15 +482,81 @@ hold on;
 plot(t_knl_4, eps_eff_knl_4, 'LineWidth', 2);
 xlabel('Time [s]', 'FontSize', 24, 'interpreter', 'Latex');
 ylabel('$\overline{\varepsilon}^{vp}$ [-]', 'Fontsize', 24, 'interpreter', 'Latex');
-h = legend('$t_{max} = 200 \ [MPa]$','$t_{max} = 250 \ [MPa]$','$t_{max} = 300 \ [MPa]$','$t_{max} = 350 \ [MPa]$');
+h = legend('$t_{max} = 250 \ [MPa]$','$t_{max} = 300 \ [MPa]$','$t_{max} = 350 \ [MPa]$');
+set(h,'interpreter','Latex','FontSize',25);
+set(gca,'fontsize',25);
+grid on;
+
+%Yield stress
+figure;
+%plot(t_kl_1, yield_kl_1, 'LineWidth', 2);
+%hold on
+plot(t_knl_2, yield_knl_2, 'LineWidth', 2);
+hold on
+plot(t_knl_3, yield_knl_3, 'LineWidth', 2);
+hold on
+plot(t_knl_4, yield_knl_4, 'LineWidth', 2);
+xlabel('Time [s]', 'FontSize', 24, 'interpreter', 'Latex');
+ylabel('$\sigma_{Yield}$ [J]', 'Fontsize', 24, 'interpreter', 'Latex');
+%h = legend('$t_{max} = 200 \ [MPa]$','$t_{max} = 250 \ [MPa]$','$t_{max} = 300 \ [MPa]$','$t_{max} = 350 \ [MPa]$');
+h = legend('$t_{max} = 250 \ [MPa]$','$t_{max} = 300 \ [MPa]$','$t_{max} = 350 \ [MPa]$');
+set(h,'interpreter','Latex','FontSize',25);
+set(gca,'fontsize',25);
+grid on;
+
+% Von Mises stress
+figure;
+% plot(t_pure_1, eps_eff_p_1, 'LineWidth', 2);
+% hold on
+plot(t_knl_2, VM_knl_2, 'LineWidth', 2);
+hold on;
+plot(t_knl_3, VM_knl_3, 'LineWidth', 2);
+hold on;
+plot(t_knl_4, VM_knl_4, 'LineWidth', 2);
+xlabel('Time [s]', 'FontSize', 24, 'interpreter', 'Latex');
+ylabel('$\sigma_{VM}$ [MPa]', 'Fontsize', 24, 'interpreter', 'Latex');
+h = legend('$t_{max} = 250 \ [MPa]$','$t_{max} = 300 \ [MPa]$','$t_{max} = 350 \ [MPa]$');
+set(h,'interpreter','Latex','FontSize',25);
+set(gca,'fontsize',25);
+grid on;
+
+%Backstress (XX)
+figure;
+%plot(t_kl_1, bck_XX_kl_1, 'LineWidth', 2);
+%hold on
+plot(t_knl_2, bck_XX_knl_2, 'LineWidth', 2);
+hold on
+plot(t_knl_3, bck_XX_knl_3, 'LineWidth', 2);
+hold on
+plot(t_knl_4, bck_XX_knl_4, 'LineWidth', 2);
+xlabel('Time [s]', 'FontSize', 24, 'interpreter', 'Latex');
+ylabel('$\alpha_{xx}$ [MPa]', 'Fontsize', 24, 'interpreter', 'Latex');
+%h = legend('$t_{max} = 200 \ [MPa]$','$t_{max} = 250 \ [MPa]$','$t_{max} = 300 \ [MPa]$','$t_{max} = 350 \ [MPa]$');
+h = legend('$t_{max} = 250 \ [MPa]$','$t_{max} = 300 \ [MPa]$','$t_{max} = 350 \ [MPa]$');
+set(h,'interpreter','Latex','FontSize',25);
+set(gca,'fontsize',25);
+grid on;
+
+% Equivalent backstress
+figure;
+% plot(t_pure_1, eq_bck_p_1, 'LineWidth', 2);
+% hold on;
+plot(t_knl_2, eq_bck_knl_2, 'LineWidth', 2);
+hold on;
+plot(t_knl_3, eq_bck_knl_3, 'LineWidth', 2);
+hold on;
+plot(t_knl_4, eq_bck_knl_4, 'LineWidth', 2);
+xlabel('Time [s]', 'FontSize', 24, 'interpreter', 'Latex');
+ylabel('$\overline{\alpha}$ [MPa]', 'Fontsize', 24, 'interpreter', 'Latex');
+h = legend('$t_{max} = 250 \ [MPa]$','$t_{max} = 300 \ [MPa]$','$t_{max} = 350 \ [MPa]$');
 set(h,'interpreter','Latex','FontSize',25);
 set(gca,'fontsize',25);
 grid on;
 
 % Energy dissipation
 figure;
-plot(t_knl_1, thermo_diss_knl_1, 'LineWidth', 2);
-hold on
+% plot(t_knl_1, thermo_diss_knl_1, 'LineWidth', 2);
+% hold on
 plot(t_knl_2, thermo_diss_knl_2, 'LineWidth', 2);
 hold on;
 plot(t_knl_3, thermo_diss_knl_3, 'LineWidth', 2);
@@ -334,7 +564,7 @@ hold on;
 plot(t_knl_4, thermo_diss_knl_4, 'LineWidth', 2);
 xlabel('Time [s]', 'FontSize', 24, 'interpreter', 'Latex');
 ylabel('Energy dissipation [J]', 'Fontsize', 24, 'interpreter', 'Latex');
-h = legend('$t_{max} = 200 \ [MPa]$','$t_{max} = 250 \ [MPa]$','$t_{max} = 300 \ [MPa]$','$t_{max} = 350 \ [MPa]$');
+h = legend('$t_{max} = 250 \ [MPa]$','$t_{max} = 300 \ [MPa]$','$t_{max} = 350 \ [MPa]$');
 set(h,'interpreter','Latex','FontSize',25);
 set(gca,'fontsize',25);
 grid on;

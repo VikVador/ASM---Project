@@ -6,9 +6,11 @@ Part of the project |      1       |      2       |      3       |      4       
 Group               |    N & R     |    A & V     |      /       |      /       |
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-## To do list
+## Questions
 
-Nothing to do now
+- How do you study the influence of the term (s −α) : α on Hp at crucial steps of one loading/unloading cycle) ?
+
+- Is it sufficient to explain the assymptotic value of the equivalent backstress graphically or do we have to make some calculs ?
 
 ## Basic Commands of GitHub
 
