@@ -4,6 +4,11 @@
 # You can specify in this file which files and folder you
 # do not want to transfer over the github server
 
+**.DS_Store
+**.v
+**.ascii
+
+
 # Metafor software
 /Metafor
 RunMetafor.sh
@@ -27,14 +32,3 @@ RunMetafor.sh
 /ASM-Part_2/.DS_Store
 /ASM-Part_3/.DS_Store
 /ASM-Part_4/.DS_Store
-
-
-
-
-
-
-
-
-
-
-

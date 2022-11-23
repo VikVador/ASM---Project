@@ -1,59 +1,9 @@
-# Advanced-Solid-Mechanics
+<img src="assets/banner_git.gif" />
 
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-Part of the project |      1       |      2       |      3       |      4       |
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-Group               |    N & R     |    A & V     |      /       |      /       |
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+<hr>
+<p align="center">
+<b style="font-size:30vw;">Advanced Solid Mechanics</b>
+</p>
+<hr>
 
-## Questions
-
-- How do you study the influence of the term (s −α) : α on Hp at crucial steps of one loading/unloading cycle) ?
-
-- Is it sufficient to explain the assymptotic value of the equivalent backstress graphically or do we have to make some calculs ?
-
-## Basic Commands of GitHub
-
-git status
-
-git log
-
-git checkout
-
-git add < File name >
-
-git add .
-
-git commit -m "Your Message here"
-
-git push origin main
-
-git pull origin main
-
-## Unable to pull (1)
-
-If you want to pull but the terminal says something like "your local copy does not
-match the version, ... merge ..." you can do a :
-
-git stash
-
-git pull origin main
-
-## Unable to pull (2)
-
-Look for the command git merge on google and learn how to use it
-
-## Some more commands
-
-If you need to see the hidden files :
-
-ls -a
-
-If you need to quickly create a file
-
-touch < your file >
-
-If you want to remove a file
-
-rm < your file >
-
+This project has for purpose to introduce the plastic behavior of materials. Indeed, in solid mechanics, plasticity plays a major role in the explication of phenomenons such as irreversible de- formation, fatigue and fracture. Therefore, it is important to take a grasp regarding this theory by performing numerical experiments on, for example, a cube under uniaxial surface traction. These experiments are done using the software Metafor which is an object-oriented finite element code for the simulation of solids submitted to large deformations.
